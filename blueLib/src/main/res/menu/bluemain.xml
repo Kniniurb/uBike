@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.plusot.bletest.MainActivity" >
+
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/ic_scan"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_scan"/>
+
+</menu>

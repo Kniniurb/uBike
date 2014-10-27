@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      	<style name="MyTheme" parent="@android:style/Theme.Translucent">
+		<item name="android:windowBackground">@color/background</item>
+	</style>
+    -->
+    <style name="ThemeBikeSens" parent="android:Theme"></style>
+    
+    <style name="Theme_Dialog" parent="android:style/Theme.Dialog"></style>
+
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Vertical">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/vertical_bar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minWidth">1dip</item>
+        <item name="android:maxWidth">12dip</item>
+    </style>
+    <style name="Theme_TranslucentDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+		<item name="android:windowBackground">@color/transparent</item>
+        
+   		<item name="android:windowNoTitle">true</item>
+   		<item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name="SplashScreen" parent="android:style/Theme.NoTitleBar">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+</resources>

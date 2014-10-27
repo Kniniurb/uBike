@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.plusot.senselib"
+    android:title="@string/gps_preferences" >
+
+<!--      <PreferenceCategory android:title="@string/gps_preferences" /> -->
+    <CheckBoxPreference
+        android:key="gpson_preference"
+        android:summaryOff="@string/summary_gpsoff_preference"
+        android:summaryOn="@string/summary_gpson_preference"
+        android:title="@string/title_gpson_preference" />
+
+    <ListPreference
+        android:dependency="gpson_preference"
+        android:dialogTitle="@string/dialog_title_gpsinterval_preference"
+        android:entries="@array/entries_gpsinterval_preference"
+        android:entryValues="@array/entryvalues_gpsinterval_preference"
+        android:key="gpsinterval_preference"
+        android:summary="@string/summary_gpsinterval_preference"
+        android:title="@string/title_gpsinterval_preference" />
+
+    <com.plusot.senselib.settings.AltitudeDialogPreference
+        android:dialogMessage="@string/dialogmsg_altcalibration_preference"
+        android:key="gpsaltoffset_preference"
+        android:summary="@string/summary_altcalibration_preference"
+        android:title="@string/title_altcalibration_preference" />
+    <CheckBoxPreference
+        android:key="gpsaltbaroadjust_preference"
+        android:summaryOn="@string/summary_gpsaltbaroadjuston_preference"
+        android:summaryOff="@string/summary_gpsaltbaroadjustoff_preference"
+        android:title="@string/title_gpsaltbaroadjust_preference" />
+    <!--
+	<ListPreference
+            android:dependency="gpson_preference"
+            android:dialogTitle="@string/dialog_title_gpsmindistance_preference"
+            android:entries="@array/entries_gpsmindistance_preference"
+            android:entryValues="@array/entryvalues_gpsmindistance_preference"
+            android:key="gpsmindistance_preference"
+            android:summary="@string/summary_gpsmindistance_preference"
+            android:title="@string/title_gpsmindistance_preference"/>
+    -->
+    <PreferenceScreen
+        android:summary="@string/settings_android_location_summary"
+        android:title="@string/settings_android_location_title" >
+        <intent android:action="android.settings.LOCATION_SOURCE_SETTINGS" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

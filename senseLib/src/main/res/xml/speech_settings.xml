@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/voice_preferences" >
+
+<!--      <PreferenceCategory android:title="@string/voice_preferences" /> -->
+    <CheckBoxPreference
+        android:key="voiceon_preference"
+        android:summaryOff="@string/summary_voiceoff_preference"
+        android:summaryOn="@string/summary_voiceon_preference"
+        android:title="@string/title_voiceon_preference" />
+
+    <ListPreference
+        android:dependency="voiceon_preference"
+        android:dialogTitle="@string/dialog_title_voiceinterval_preference"
+        android:entries="@array/entries_voiceinterval_preference"
+        android:entryValues="@array/entryvalues_voiceinterval_preference"
+        android:key="voiceinterval_preference"
+        android:summary="@string/summary_voiceinterval_preference"
+        android:title="@string/title_voiceinterval_preference" />
+
+    <CheckBoxPreference
+        android:key="voicechange_preference"
+        android:summaryOff="@string/summary_voicechangeoff_preference"
+        android:summaryOn="@string/summary_voicechangeon_preference"
+        android:title="@string/title_voicechange_preference" />
+
+    <PreferenceScreen android:title="@string/settings_android_texttospeech_title" >
+        <intent android:action="com.android.settings.TTS_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/title_svox_preference" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://details?id=com.svox.classic" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

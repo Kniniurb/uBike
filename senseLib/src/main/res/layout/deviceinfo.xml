@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/hint_border" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.plusot.senselib.widget.FitLabelView
+            android:id="@+id/deviceinfo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:heightPercentage="0.12"
+            app:text="@string/deviceinfo_title"
+            app:textAlpha="0xAA"
+            app:textColor="@color/dim_value_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#99AAFFBB"
+            android:paddingTop="5dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/manufacturer"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:id="@+id/manufacturer"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/model"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/model"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/revision"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/revision"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row_software">
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/software"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/software"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row_serialnumber">
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/serialnumber"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/serialnumber"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row_channel" >
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/channel"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/channel"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row_address" >
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/device_address"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/address"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row_devicenumber" >
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/devicenumber"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/devicenumber"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow  android:id="@+id/row_batterystatus">
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/batterystatus"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:id="@+id/batterystatus"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow  android:id="@+id/row_voltage">
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/voltage"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/voltage"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/row_alive">
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/alive"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/alive"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/srm_slope_row" >
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/srm_slope"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/srm_slope"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:id="@+id/srm_offset_row" >
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/srm_offset"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/srm_offset"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow> 
+            <TableRow android:id="@+id/raw_value_row" >
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="@string/raw_value"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize" />
+
+                <TextView
+                    android:textIsSelectable="false"
+                    android:id="@+id/raw_value"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/deviceinfo_fontsize"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+        <!--
+        <View
+            android:id="@+id/deviceinfo_line2"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="#99AAFFBB"
+            android:paddingTop="5dp" />
+
+        <Button
+            android:id="@+id/deviceinfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh" />
+        -->
+    </LinearLayout>
+
+</ScrollView>

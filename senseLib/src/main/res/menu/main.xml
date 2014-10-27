@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_startstop"
+        android:icon="@drawable/ic_start"
+        android:orderInCategory="95"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_startstop"/>
+    <item
+        android:id="@+id/action_interval"
+        android:icon="@drawable/ic_interval"
+        android:orderInCategory="96"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_interval"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="97"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_sendmail"/>
+    <item
+        android:id="@+id/action_gpx"
+        android:icon="@drawable/ic_gpx"
+        android:orderInCategory="98"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_gpx"/>
+    <item
+        android:id="@+id/action_history"
+        android:icon="@drawable/ic_history"
+        android:orderInCategory="98"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_history"/>
+    <!--
+         <item
+        android:id="@+id/action_ble"
+        android:icon="@drawable/ic_ble"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_ble"/>
+    -->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_settings"/>
+
+</menu>

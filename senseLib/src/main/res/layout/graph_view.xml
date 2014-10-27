@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/fieldview_pad"
+    android:layout_weight="0.5"
+    android:background="@drawable/round_border"
+    android:orientation="horizontal" >
+
+    <com.plusot.senselib.widget.XYGraphView
+        android:id="@+id/graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:alpha="0x88"
+        app:background="#00FFFFFF"
+        app:borderBottom="15dp"
+        app:borderLeft="25dp"
+        app:borderRight="15dp"
+        app:borderTop="12dp" />
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/graph"
+        android:layout_alignTop="@+id/graph"
+        android:layout_margin="@dimen/label_pad"
+        android:paddingBottom="0dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="0dp"
+        app:heightPercentage="0.35"
+        app:text="@string/max"
+        app:textAlign="2"
+        app:textAlpha="0xD8"
+        app:textColor="@color/maxvalue_color"
+        app:widthPercentage="0.35" />
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/graph"
+        android:layout_alignTop="@+id/graph"
+        android:layout_margin="@dimen/label_pad"
+        android:paddingBottom="0dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="0dp"
+        app:heightPercentage="0.35"
+        app:text="@string/average"
+        app:textAlign="1"
+        app:textAlpha="0xD8"
+        app:textColor="@color/avgvalue_color"
+        app:widthPercentage="0.35" />
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/deltaup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/graph"
+        android:layout_alignRight="@+id/graph"
+        android:layout_margin="@dimen/label_pad"
+        android:paddingBottom="8dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="0dp"
+        app:heightPercentage="0.4"
+        app:text="@string/up"
+        app:textAlign="2"
+        app:textAlpha="0xD8"
+        app:textColor="@color/deltaup_color"
+        app:widthPercentage="0.35" />
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/deltadown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/graph"
+        android:layout_alignLeft="@+id/graph"
+        android:layout_margin="@dimen/label_pad"
+        android:paddingBottom="8dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="0dp"
+        app:heightPercentage="0.4"
+        app:text="@string/down"
+        app:textAlign="1"
+        app:textAlpha="0xD8"
+        app:textColor="@color/deltadown_color"
+        app:widthPercentage="0.35" />
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/label_pad"
+        android:paddingBottom="0px"
+        android:paddingTop="0px"
+        app:heightPercentage="0.19"
+        app:text="@string/dots"
+        app:textAlpha="0xD8"
+        app:textColor="@color/value_color"
+        app:widthPercentage="0.8" />
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/value"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/caption"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:heightPercentage="0.90"
+        app:text="@string/hint_value_click"
+        app:textAlpha="0xEA"
+        app:textColor="@color/value_color"
+        app:widthPercentage="0.90" />
+
+</RelativeLayout>

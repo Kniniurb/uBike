@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settings_screen"
+    android:title="@string/settings_title" >
+
+    <!--
+         <PreferenceCategory
+        android:key="settings_category"
+        android:title="@string/settings_title" />
+    -->
+    <PreferenceScreen
+        android:icon="@drawable/scherm"
+        android:key="display_settings"
+        android:title="@string/settings_display_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/cyclist"
+        android:key="bike_settings"
+        android:title="@string/settings_bike_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/ant"
+        android:key="ant_settings"
+        android:title="@string/settings_ant_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/bluetoothle"
+        android:key="ble_settings"
+        android:title="@string/settings_bluetoothle_title" 
+        android:summary="@string/settings_bluetoothle_summary" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/bluetooth"
+        android:title="@string/settings_bluetooth_title" 
+        android:summary="@string/settings_bluetooth_summary" >
+        <intent android:action="android.settings.BLUETOOTH_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/location"
+        android:key="gps_settings"
+        android:title="@string/settings_gps_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/share"
+        android:key="share_settings"
+        android:title="@string/settings_share_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/spraak"
+        android:key="speech_settings"
+        android:title="@string/settings_speech_title" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/android"
+        android:title="@string/settings_android_title" >
+        <intent android:action="android.settings.SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/replay"
+        android:key="replay_settings"
+        android:title="@string/settings_replay" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/hints"
+        android:key="hint_settings"
+        android:title="@string/settings_hints" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/info"
+        android:key="about_settings"
+        android:title="@string/about_title" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

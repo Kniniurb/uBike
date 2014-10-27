@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <!-- General -->
+
+    <string name="up">Stijging</string>
+    <string name="down">Daling</string>
+    <string name="hello">Actief</string>
+    <string name="app_stopped">%1$s afgesloten</string>
+
+    <!-- Devices -->
+
+    <string name="heartratemonitor">Hartslagmeter</string>
+    <string name="heartratemonitor2">Hartslagmeter 2</string>
+    <string name="heartratesuunto">Suunto hartslagmeter</string>
+    <string name="heartratezephyr">Zephyr hartslagmeter</string>
+    <string name="bikespeedcadence">Snelheidcadanssensor</string>
+    <string name="bikecadence">Cadanssensor</string>
+    <string name="bikespeed">Snelheidssensor</string>
+    <string name="bikepower">Vermogen</string>
+    <string name="bikepower2">Vermogen 2</string>
+    <string name="bikepower3">Vermogen 3</string>
+    <string name="bikepower4">Vermogen 4</string>
+    <string name="locationdevice">Plaatsbepaling</string>
+    <string name="timedevice">Klok</string>
+    <string name="winddevice">Windmeter</string>
+    <string name="airpressuresensor">Manometer</string>
+    <string name="batterysensor">Batterij</string>
+    <string name="accelerometer">Versnellingsensor</string>
+    <string name="magneticdevice">Compas</string>
+
+    <!-- Hints -->
+
+    <string name="hint_long_click">Klik lang om ander veldtype te kiezen</string>
+    <string name="hint_value_click">Klik om een veldtype te kiezen.</string>
+
+    <!-- Toasts -->
+    <string name="toast_pause">Activiteit is gepauzeerd.</string>
+
+    <!-- Menu items -->
+
+    <string name="menu_startstop">Start/Stop activiteit</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_sendmail">Delen</string>
+    <string name="menu_history">Historie</string>
+
+    <!-- Popups -->
+
+    <string name="voicevaluepopup">Veldtypes om te laten horen</string>
+    <string name="startpopup">Activiteit</string>
+    <string name="movestartpopup">Beweging gedetecteerd: Wilt u starten?</string>
+    <string name="stoppopup">Stop/pauze Activiteit</string>
+    <string name="sharepopup">Delen</string>
+    <string name="unitpopup">Kies eenheid</string>
+    <string name="valuepopup">Kies veldtype</string>
+    <string name="yearpopup">Kies jaar</string>
+    <string name="monthpopup">Kies maand</string>
+    <string name="daypopup">Kies een dag</string>
+    <string name="timespopup">Kies een tijd</string>
+    <string name="no_unit_choice">Bij dit veldtype kan geen eenheid gekozen worden</string>
+    <string name="no_year_choice">Nog geen historie beschikbaar</string>
+    <string name="no_month_choice">Geen historie beschikbaar in %1$s</string>
+    <string name="chosen_file">Gekozen bestand</string>
+    <string name="set_level">Huidige helling is 0</string>
+    <string name="step1settingspopup">Stap 1 van 2: Instellingen&lt;BR&gt;(klik om aan te passen)</string>
+    <string name="step2startpopup">Stap 2 van 2: Activiteit</string>
+    <string name="step_continue">Volgende stap</string>
+    <string name="popitem_bluetooth_on">Bluetooth is AAN</string>
+    <string name="popitem_bluetooth_off">Bluetooth is UIT</string>
+    <string name="popitem_pairing_on">%1$s koppelt alleen eerder gebruikte ANT+ sensoren</string>
+    <string name="popitem_pairing_off">%1$s koppelt met alle nabije ANT+ sensoren</string>
+
+    <!-- Dialog texts -->
+
+    <string name="no_device_info_yet">Nog geen ANT+ sensor info</string>
+    <string name="app_quitmessage">Wilt u deze %1$s stoppen?</string>
+    <string name="level_message">De huidige helling wordt als horizontaal beschouwd.</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nee</string>
+    <string name="button_confirm">OK</string>
+    <string name="button_cancel">Annuleer</string>
+    <string name="deviceinfo_title">ANT Sensor</string>
+    <string name="hint_title">Hint %1$d van %2$d</string>
+    <string name="about_title">Over deze app</string>
+    <string name="no_sd_title">Geen SD kaart</string>
+    <string name="no_sd_message">Er is geen SD kaart aanwezig om data op te slaan of data van te lezen</string>
+    <string name="dialog_calibrate_title">Kalibratie vermogens sensor</string>
+    <string name="dialog_calibrate_msg">Wilt u uw vermogenssensor kalibreren? Kijk in de handleiding van uw vermogenssensor hoe dit werkt.</string>
+    <string name="warn_stopactivity_title">Historie stopt activiteit</string>
+    <string name="warn_stopactivity_msg">Het afspelen van een historische activiteit, stopt de hiudige activiteit. Wilt u doorgaan?</string>
+    <string name="warn_reset_title">Reset zet totalen terug naar 0</string>
+    <string name="warn_reset_msg">De totalen voor tijd, afstand en meer zullen worden teruggezet naar 0. Wilt u doorgaan?</string>
+    <string name="warn_nospeech_title">Tekst naar spraak staat uit</string>
+    <string name="warn_nospeech_msg">Om u verrichting te kunnen horen moet \'tekst naar spraak\' aan staan. Wilt u deze instelling wijzigen?</string>
+    <string name="warn_nobluetooth_title">Bluetooth staat uit</string>
+    <string name="warn_nobluetooth_msg">Deze applicatie kan alleen verbinding maken met uw Kestrel weerstation als Bluetooth aan staat en gekoppeld is. Wilt u de Bluetooth instellingen wijzigen?</string>
+    <!--
+         <string name="warn_replaytodb_title">Stuur historie naar database</string>
+    <string name="warn_replaytodb_msg">Wilt u de historie naar de online database sturen?</string>
+    <string name="warn_lite_msg">Deze optie is niet aanwezig in de Lite versie. Ga naar Google Play om de volledige versie aan te schaffen.</string>
+    <string name="warn_lite_title">Lite versie</string>
+    <string name="warn_lite_summary">niet beschikbar in Lite versie</string>
+    -->
+    <string name="trainingpeaks_upload_success">TrainingPeaks upload gelukt</string>
+    <string name="trainingpeaks_upload_failed">TrainingPeaks upload mislukt!</string>
+    <string name="warn_nopassword_title">User onbekend</string>
+    <string name="warn_nopassword_msg">U heeft nog geen of geen juiste user en password ingegeven. Wilt u naar de instellingen hiervoor?</string>
+    <string name="tp_file">Upload bestand: %s</string>
+    <string name="tp_progress">Upload bezig, %d bytes verzonden</string>
+    <string name="tp_result_success">%s Bytes succesvol verstuurd</string>
+    <string name="tp_result_notok">Upload niet gaccepteerd door TrainingPeaks (%s)</string>
+    <string name="tp_result_nofile">Geen bestand beschikbaar om te versturen</string>
+    <string name="tp_result_closeingapp">Het programma is aan het afsluiten. Upload geannuleerd</string>
+    <string name="tp_result_wrongurl">URL %s niet correct</string>
+    <string name="tp_result_communicationfailure">Communicatie met server mislukt, mogelijk door foutiefe username of password (%s)</string>
+    <string name="tp_result_filenotfound">Bestand %s kan niet worden gevonden</string>
+    <string name="tp_result_unknownerror">Onbekende fout %s</string>
+    <string name="dialog_gps_on">De GPS kan niet aangezet worden. Wilt u uw Android toestaan om de GPS aan te zetten?</string>
+
+    <!-- Fields -->
+
+    <string name="valuetime">Integraal</string>
+    <string name="normalized">Normalized</string>
+    <string name="variance">Variantie</string>
+    <string name="humidity">Luchtvochtigheid</string>
+    <string name="temperature">Temperatuur</string>
+    <string name="windspeed">Windsnelheid</string>
+    <string name="airpressure">Luchtdruk</string>
+    <string name="efficiency">Efficiëntie</string>
+    <string name="pulsewidth">Hartslaginterval</string>
+    <string name="slope">Helling</string>
+    <string name="heart_beat">Hartslag</string>
+    <string name="speed">Snelheid</string>
+    <string name="vertspeed">Stijgsnelheid</string>
+    <string name="wheel_revs">Wieltoeren</string>
+    <string name="time">Tijd</string>
+    <string name="day">Dag</string>
+    <string name="minutes">Minuten</string>
+    <string name="seconds">Seconden</string>
+    <string name="distance">Afstand</string>
+    <string name="cadence">Cadans</string>
+    <string name="gearratio">Verzet</string>
+    <string name="power">Vermogen</string>
+    <string name="power_pedal">Verhouding pedaalbelasting</string>
+    <string name="altitude">Hoogte</string>
+    <string name="location">Locatie</string>
+    <string name="bearing">Koers</string>
+    <string name="satellites">Satellieten</string>
+
+    <!-- Splash totals -->
+    <string name="splash_totals">Totalen</string>
+    <string name="splash_rides">Activiteiten</string>
+    <string name="splash_distance">Afstand</string>
+    <string name="splash_time">Tijd</string>
+    <string name="splash_energy">Energie</string>
+    <string name="splash_ascent">Hoogtemeters</string>
+    <string name="splash_altitude">Hoogste piek</string>
+    <string name="splash_lasttimesent">Cloud sync tot</string>
+
+    <!-- Overview -->
+    <string name="overview_activity">Overzicht van deze activiteit</string>
+    <string name="overview_alltime">Overzicht</string>
+    <string name="overview_avg_heartrate">Gemiddelde hartslag</string>
+    <string name="overview_max_heartrate">Maximum hartslag</string>
+    <string name="overview_avg_speed">Gemiddelde snelheid </string>
+    <string name="overview_max_speed">Maximum snelheid</string>
+    <string name="overview_distance">Afstand</string>
+    <string name="overview_total_distance">Totale afstand</string>
+    <string name="overview_ascent">Geklommen</string>
+    <string name="overview_descent">Gedaald</string>
+    <string name="overview_lowest_altitude">Laagste dal</string>
+    <string name="overview_highest_altitude">Hoogste piek</string>
+    <string name="overview_total_altitude">Totaal geklommen</string>
+    <string name="overview_avg_power">Gemiddeld vermogen</string>
+    <string name="overview_normalized_power">Genormaliseerd vermogen</string>
+    <string name="overview_max_power">Hoogste vermogen</string>
+    <string name="overview_energy">Energie</string>
+    <string name="overview_avg_windspeed">Gemiddelde windsnelheid</string>
+    <string name="overview_max_windspeed">Maximum windsnelheid</string>
+    <string name="overview_avg_efficiency">Gemiddelde efficiëntie</string>
+    <string name="overview_time">Duur van deze activiteit</string>
+    <string name="overview_starttime">Start van deze activiteit</string>
+    <string name="overview_total_time">Totale tijd</string>
+    <string name="overview_total_energy">Totale energie</string>
+    <string name="overview_avg_cadence">Gemiddelde cadans</string>
+    <string name="overview_rides">Total aantal activiteiten</string>
+
+    <!-- Units -->
+
+    <string name="value">Huidige waarde</string>
+    <string name="average">Gemiddelde</string>
+    <string name="max">Maximum</string>
+    <string name="min">Minimum</string>
+    
+    <string name="effic_choice">Efficientie in J/hb</string>
+    <string name="kph_choice">Snelheid in km/h</string>
+    <string name="mph_choice">Snelheid in mph</string>
+    <string name="mps_choice">Snelheid in m/s</string>
+    <string name="fps_choice">Snelheid in ft/s</string>
+    <string name="fpm_choice">Snelheid in ft/m</string>
+    <string name="beaufort_choice">Beaufort</string>
+    <string name="knot_choice">Snelheid in knots</string>
+    <string name="rpm_choice">Toeren in rpm</string>
+    <string name="bpm_choice">Slagen in bpm</string>
+    <string name="pulse_choice">Pulslengte in ms</string>
+    <string name="count_choice">Aantal</string>
+    <string name="datetime_choice">Als datum-tijd</string>
+    <string name="degree_choice">Hoek in graden</string>
+    <string name="mpss_choice">Versnelling in m/s²</string>
+    <string name="fpss_choice">Versnelling in ft/s²</string>
+    <string name="meter_choice">Afstand in meter</string>
+    <string name="feet_choice">Afstand in voeten</string>
+    <string name="inch_choice">Afstand in inches</string>
+    <string name="yard_choice">Afstand in yards</string>
+    <string name="km_choice">Afstand in km</string>
+    <string name="mile_choice">Afstand in miles</string>
+    <string name="joule_choice">Energie in Joule</string>
+    <string name="kilojoule_choice">Energie in kilo Joule</string>
+    <string name="watt_choice">Vermogen in Watt</string>
+    <string name="hp_choice">Vermogen in hp</string>
+    <string name="pk_choice">Vermogen in metric pk</string>
+    <string name="nm_choice">Kracht in Nm</string>
+    <string name="ratio_choice">Als verhouding</string>
+    <string name="percent_choice">Als percentage</string>
+    <string name="tesla_choice">Veldsterkte in uT</string>
+    <string name="volt_choice">Spanning in Volt</string>
+    <string name="inhg_choice">Druk in inches kwik</string>
+    <string name="hpa_choice">Druk in hecto pascal</string>
+    <string name="psi_choice">Druk in pond per vierkante inch</string>
+    <string name="mb_choice">Druk in millibar</string>
+    <string name="celcius_choice">Temperatuur in celcius</string>
+    <string name="fahrenheit_choice">Temperatuur in fahrenheit</string>
+    <string name="effic_speech">Joule per hartslag</string>
+    <string name="kph_speech">kilometer per uur</string>
+    <string name="mps_speech">meter per seconde</string>
+    <string name="mph_speech">mijl per uur</string>
+    <string name="fps_speech">voet per seconde</string>
+    <string name="fpm_speech">voet per minuut</string>
+    <string name="beaufort_speech">beaufort</string>
+    <string name="knot_speech">knopen</string>
+    <string name="rpm_speech">toeren per minuut</string>
+    <string name="bpm_speech">slagen per minuut</string>
+    <string name="pulse_speech">Pulslengte in milliseconden</string>
+    <string name="volt_speech">Volt</string>
+    <string name="count_speech" />
+    <string name="datetime_speech" />
+    <string name="degree_speech">graden</string>
+    <string name="mpss_speech">meter per  seconde kwadraat</string>
+    <string name="fpss_speech">voet per seconde kwadraat</string>
+    <string name="meter_speech">meter</string>
+    <string name="feet_speech">voet</string>
+    <string name="inch_speech">inch</string>
+    <string name="yard_speech">yard</string>
+    <string name="km_speech">kilometer</string>
+    <string name="mile_speech">mijlen</string>
+    <string name="watt_speech">Watt</string>
+    <string name="joule_speech">Joule</string>
+    <string name="kilojoule_speech">kilo Joule</string>
+    <string name="hp_speech">paardenkracht</string>
+    <string name="pk_speech">metrische paardenkracht</string>
+    <string name="nm_speech">Newton meter</string>
+    <string name="percent_speech">procent</string>
+    <string name="ratio_speech"></string>
+    <string name="tesla_speech">micro tesla</string>
+    <string name="inhg_speech">inches kwik</string>
+    <string name="hpa_speech">hecto pascal</string>
+    <string name="psi_speech">pond per vierkante inch</string>
+    <string name="mb_speech">millibar</string>
+    <string name="celcius_speech">graden celcius</string>
+    <string name="fahrenheit_speech">graden fahrenheit</string>
+
+    <!-- ANT information -->
+
+    <string name="battery_new">Nieuw</string>
+    <string name="battery_good">Goed</string>
+    <string name="battery_ok">OK</string>
+    <string name="battery_low">Laag</string>
+    <string name="battery_critical">Kritisch</string>
+    <string name="battery_unknown">Onbekend</string>
+    <string name="manufacturer">Maker</string>
+    <string name="model">Model</string>
+    <string name="revision">Revisie</string>
+    <string name="serialnumber">Serienummer</string>
+    <string name="channel">ANT kanaal</string>
+    <string name="devicenumber">ANT id</string>
+    <string name="batterystatus">Battery </string>
+    <string name="voltage">Voltage</string>
+    <string name="alive">Werkend</string>
+    <string name="calibrate">Kalibreer</string>
+    <string name="srm_slope">Slope</string>
+    <string name="srm_offset">Offset</string>
+    <string name="torque_freq_offset">Kalibratie succes (waarde = %1$d)</string>
+    <string name="calibration_success">Kalibratie succes (Automatische nul = %1$s, data = %2$d)</string>
+    <string name="calibration_failed">Kalibratie mislukt (Automatische nul = %1$s, data = %2$d)</string>
+
+    <!-- Device information -->
+    <string name="first_msg">Gevonden %s</string>
+
+    <!-- GPS information -->
+    <string name="provider_enabled">Provider %s aan</string>
+    <string name="provider_disabled">Provider %s uit</string>
+    <string name="provider_available">Provider %s beschikbaar</string>
+    <string name="provider_out_of_service">Provider %s buiten gebruik</string>
+    <string name="provider_temporarily_unavailable">Provider %s tijdelijk niet beschikbaar</string>
+    <string name="satellites_in_view">%d Satellieten in beeld</string>
+    <string name="location_first_fix">Eerste plaatsbepaling</string>
+
+    <!-- Settings -->
+
+    <string name="settings_title">Instellingen</string>
+    <string name="settings_ant_title">ANT+ &amp; sensor info</string>
+    <string name="settings_gps_title">GPS</string>
+    <string name="settings_bluetooth_title">Bluetooth</string>
+    <string name="settings_android_display">Tijd tot scherm dimt</string>
+    <string name="settings_android_display_detail">Scroll naar \'Slaapstand\' bij \'Weergave\' instellingen  &#8230;</string>
+    <string name="settings_share_title">Cloud &amp; Delen</string>
+    <string name="settings_speech_title">Spraak</string>
+    <string name="settings_level_title">Zet hellingshoek op 0</string>
+    <string name="settings_display_title">Scherm</string>
+    <string name="settings_android_title">Android instellingen</string>
+    <string name="settings_android_location_title">Check GPS beschikbaarheid</string>
+    <string name="settings_android_location_summary">Mag GPS aan volgens Android instellingen</string>
+    <string name="settings_android_texttospeech_title">Android spraak instellingen</string>
+    <string name="settings_calibrate_title">Kalibreer power sensor</string>
+    <string name="settings_bike_title">Fiets details</string>
+    <string name="settings_slope">SRM Slope %1$.2f</string>
+    <string name="settings_offset">SRM Offset %1$.2f</string>
+    <string name="settings_hints">Hints</string>
+    <string name="settings_replay">Terugspeel opties</string>
+
+    <!-- Preferences -->
+
+    <string name="title_autoswitch_preference">Tijdsduur veld in beeld</string>
+    <string name="title_click_preference">Veld klik optie</string>
+    <string name="summary_click_preference">Met klik kan veldtype gewisseld worden</string>
+    <string name="summary_noclick_preference">Alleen door lang klikken kan veldtype gekozen worden</string>
+    <string name="title_hasmap_preference">Kaarten</string>
+    <string name="summary_hasmap_preference">Toon achtergrondkaarten</string>
+    <string name="summary_nohasmap_preference">Toon geen achtergrond kaarten</string>
+    <string name="title_dim_preference">Dim gedrag</string>
+    <string name="summary_dim_preference">Dim instelling: []</string>
+    <string name="summary_autoswitch_preference">Ander veldtype wordt getoond na ingesteld aantal seconden ().</string>
+    <string name="dialog_title_autoswitch_preference">Kies interval waarna veldtype verandert</string>
+    <string name="display_preferences">Scherm voorkeuren</string>
+    <string name="title_usepairing_preference">ANT pairing</string>
+    <string name="summary_pairingon_preference">Toestel koppelt alleen eerder gebruikte ANT+ sensoren</string>
+    <string name="summary_pairingoff_preference">Toestel koppelt met alle nabije ANT+ sensoren</string>
+    <string name="deviceinfo_preference">Sensor info</string>
+    <string name="summary_deviceinfo_preference">Toont info over gedetecteerde sensoren</string>
+    <string name="voice_preferences">Spraak</string>
+    <string name="title_voiceinterval_preference">Tijd tussen meldingen</string>
+    <string name="summary_voiceinterval_preference">Interval ().</string>
+    <string name="dialog_title_voiceinterval_preference">Kies spraak interval</string>
+    <string name="title_voiceon_preference">Spraak</string>
+    <string name="summary_voiceon_preference">Spraak staat aan</string>
+    <string name="summary_voiceoff_preference">Spraak staat uit</string>
+    <string name="title_voicechange_preference">Spraak bij verandering</string>
+    <string name="summary_voicechangeon_preference">Een grotere verandering in waarde initieert een gesproken tekst, los van de tijd tussen meldingen</string>
+    <string name="summary_voicechangeoff_preference">Een grotere verandering in waarde initieert geen gesproken tekst.</string>
+    <string name="ant_preferences">ANT</string>
+    <string name="bike_preferences">Fietsparameters</string>
+    <string name="title_displayname_preference">Display naam</string>
+    <string name="summary_displayname_preference">Naam voor weergave op bikesenses.nl: []</string>
+    <string name="trainingpeaks_category">TrainingPeaks login</string>
+    <string name="title_tpuser_preference">TrainingPeaks User</string>
+    <string name="summary_tpuser_preference">Username voor upload: []</string>
+    <string name="title_tppassword_preference">TrainingPeaks Password</string>
+    <string name="summary_tppassword_preference">Password voor upload: ***</string>
+    <string name="title_wheelcirc_preference">Wielomtrek in mm</string>
+    <string name="summary_wheelcirc_preference">Omtrek van wiel in mm = []</string>
+    <string name="title_wheelsize_preference">Wiel- &amp; Bandmaat</string>
+    <string name="summary_wheelsize_preference">Wiel- &amp; Bandmaat = [].</string>
+    <string name="gps_preferences">GPS</string>
+    <string name="title_gpson_preference">Gebruik GPS</string>
+    <string name="summary_gpson_preference">GPS aan. Dit belast de batterij</string>
+    <string name="summary_gpsoff_preference">GPS uit. Onnauwkeurige plaatbepaling.</string>
+    <string name="title_gpsinterval_preference">GPS interval</string>
+    <string name="summary_gpsinterval_preference">Klein interval belast de batterij ().</string>
+    <string name="dialog_title_gpsinterval_preference">Kies GPS interval</string>
+    <string name="title_windows_preference">Vensters</string>
+    <string name="summary_windows_preference">Aantal vensters in beeld().</string>
+    <string name="dialog_title_windows_preference">Kies aantal vensters</string>
+    <string name="title_xtravalues_preference">Extra veldtypes</string>
+    <string name="summary_xtravalues_preference">Toon extra veldtypes zoals satellieten</string>
+    <string name="summary_noxtravalues_preference">Toon de extra veldtypes niet</string>
+    <string name="title_replayinterval_preference">Snelheid terugspelen historie</string>
+    <string name="summary_replayinterval_preference">Terugspeelsnelheid ().</string>
+    <string name="dialog_title_replayinterval_preference">Kies snelheid</string>
+    <string name="http_preferences">Settings voor delen</string>
+    <string name="title_http_preference">Verstuur naar Cloud</string>
+    <string name="summary_on_http_preference">Verstuur data naar Cloud</string>
+    <string name="summary_off_http_preference">Verstuur geen data naar Cloud</string>
+    <string name="title_shareprivacy_preference">Data op internet</string>
+    <string name="summary_on_shareprivacy_preference">Privé</string>
+    <string name="summary_off_shareprivacy_preference">Publiek</string>
+    <string name="title_svox_preference">Link naar SVOX met internationale stemmen</string>
+    <string name="reset_totals">Totalen terug naar 0</string>
+    <string name="url_preferences">Extra opties voor delen</string>
+    <string name="title_url_preference">Server om data naar te sturen</string>
+    <string name="summary_url_preference">Server [].</string>
+
+    <!-- Mail -->
+
+    <string name="mail_sending">Stuurt bericht …</string>
+    <string name="email_text">Beste gebruiker.\r\n\r\nKijk naar de bijlages van dit bericht voor meer informatie over uw verrichtingen. Als u delen via de Cloud heeft aan staan, kunt u ook kijken op:\r\n%1$s</string>
+<!--      <string name="email_text_lite">Beste gebruiker.\r\n\r\nKijk naar de bijlages van deze bericht voor meer informatie over uw verrichtingen. Als u delen via de Cloud heeft aan staan, kunt u ook kijken op:\r\n%1$s\r\nDe volledige versie van dit programma stuurt ook andere bestandsformaten mee, zoals TrainingPeaks PWX bestanden.</string> -->
+    <string name="email_signature">Hartelijke groeten\r\n\r\nBroxTech\r\nhttp://www.broxtech.com\r\nU kunt het .gz bestand hernoemen naar een .zip bestand om het uit te pakken. GMail ondersteunt helaas niet het verzenden van .zip bestanden.</string>
+    <string name="no_mail_to_send">Er is nog niets beschikbaar om te versturen.</string>
+
+    <!-- Twitter -->
+    <string name="warn_tweet_cloud_title">Geen Cloud, geen Tweet.</string>
+    <string name="warn_tweet_cloud_msg">U kunt geen Tweet sturen als u uw data niet deelt via de Cloud service.</string>
+    <string name="tweet_msg">%1$s %3$s. Bekijk mijn rit op %2$s</string>
+
+    <!-- Lite as Full -->
+    <!--
+     	<string name="title_lite_as_full">Lite als volledige versie</string>    
+	<string name="message_lite_as_full">Vandaag zal uw %1$s applicatie werken als de volledige editie. U kunt nu delen via de Cloud, Tweets met een link naar uw data zijn mogelijk, %1$s kan elke gekozen waarde uitspreken (Check Spraak opties). U kunt uw data delen met TrainingPeaks. En u zult meer exportformaten vinden in de mail.</string>    
+    -->
+    <!-- Bike Profile -->
+    <string name="step1_bikeprofile">Fiets: %1$s</string>
+    <string name="title_bikeprofile_preference">Fiets profiel</string>
+    <string name="summary_bikeprofile_preference">Huidig profiel: [].</string>
+    <string name="title_bikeprofilename_preference">Pas naam van profiel aan</string>
+    <string name="summary_bikeprofilename_preference">Profielnaam: [].</string>
+    <string name="profile1">Fiets 1</string>
+    <string name="profile2">Fiets 2</string>
+    <string name="profile3">Fiets 3</string>
+    <string name="profile4">Fiets 4</string>
+    <string name="profile5">Fiets 5</string>
+
+    <!-- New strings -->
+    <string name="device_address">Adres</string>
+    <string name="software">Software</string>
+    <string name="raw_value">Meting</string>
+    <string name="twitter_auth_request">%1$s vraagt nu je Twitter account om toestemming voor het sturen van Tweets.</string>
+    <string name="twitter_send_exception">Fout bij versturen tweet: %1$s</string>
+    <string name="twitter_access_token_exception">Fout bij het verkrijgen van  toegangscode: %1$s</string>
+    <string name="twitter_sent">Tweet verzonden: %1$s</string>
+    <string name="dialogmsg_altcalibration_preference">Hoogte</string>
+    <string name="title_altcalibration_preference">Hoogte calibratie</string>
+    <string name="summary_altcalibration_preference">Correctie in meters ().</string>
+
+    <!-- Strings 1.4 release -->
+    <string name="recoverypopup">Herstel van laatste rit</string>
+    <string name="fitnesspopup">Fitness na rit</string>
+    <string name="intensitypopup">Intensiteit van rit</string>
+    <string name="remarkspopup_title">Opmerkingen</string>
+    <string name="remarkspopup_hint">Typ hier je opmerking</string>
+    <string name="remarkspopup_description">Typ opmerking</string>
+    <string name="interval">Interval</string>
+    <string name="energy">Energie</string>
+    <string name="stridesensor">Stapsensor</string>
+    <string name="stridesensor_error">Stapsensor fout!</string>
+    <string name="stridesensor_warning">Stapsensor waarschuwing!</string>
+    <string name="winddirection">Windrichting</string>
+    <string name="acceleration">Acceleratie</string>
+    <string name="change">Verandering/min</string>
+    <string name="steps">Stappen</string>
+    <string name="stepsnumber"></string>
+    <string name="steps_choice">Stappen</string>
+    <string name="steps_speech">Stappen</string>
+    <string name="title_storage_preference">Bestands typen</string>
+    <string name="summary_storage_preference">Bestanden om te delen</string>
+    <string name="laps_title">Interval %1$s</string>
+    <string name="menu_interval">Interval</string>
+    <string name="average_short">gem.</string>
+    <string name="max_short">max.</string>
+    <string name="wheel_torque">Wiel Torque</string>
+    <string name="crank_torque">Torque</string>
+    <string name="zone">Hartslag Zone</string>
+    <string name="title_test_preference">Test opties</string>
+    <string name="summary_test_preference">Gekozen test optie []</string>
+    <string name="report">Rapport</string>
+    <string name="hours">Uren</string>
+    <string name="dialogmsg_maxheartrate_preference">Hartslag</string>
+    <string name="title_maxheartrate_preference">Max. hartslag</string>
+    <string name="summary_maxheartrate_preference">Maximum hartslag ().</string>
+
+    <!-- Strings 1.4.1 release -->
+    <string name="strava_account">FIT worden naar Strava gestuurd voor: %s</string>
+    <string name="warn_nofit_title">Geen FIT bestanden</string>
+    <string name="warn_nofit_msg">Het opslaan van FIT bestanden staat niet aan in de Cloud &amp; Delen instellingen. Zet dit aan om bestanden met Strava te kunnen delen.</string>
+    <string name="warn_noaccount_title">Geen e-mail account</string>
+    <string name="warn_noaccount_msg">U heeft op uw Android nog geen e-mail account aangemaakt. U kunt daarom niet met Strava uw bestanden delen.</string>
+    <string name="warn_nofitfiles_title">Geen bestanden vandaag</string>
+    <string name="warn_nofitfiles_msg">Alleen de bestanden van vandaag kunnen met Strava gedeeld worden. Er zijn vandaag nog geen bestanden beschikbaar.</string>
+    <string name="choose_mailer">Kies app voor email.</string>
+
+    <!-- Strings 1.4.4 release -->
+    <string name="kg">kg</string>
+    <string name="kg_choice">Weight in kg</string>
+    <string name="kg_speech">kilogram</string>
+    <string name="notify_install">Installeer ANT+ Radio Service</string>
+    <string name="ant_not_supported">ANT+ niet ondersteund</string>
+    <string name="ant_enabling">ANT+ opstarten</string>
+    <string name="ant_disabled">ANT+ uit</string>
+    <string name="ant_disabling">ANT+ afsluiten</string>
+    <string name="ant_airplane_mode">ANT+ vliegtuig modus</string>
+    <string name="ant_in_use">ANT+ al in gebrbuik</string>
+    <string name="ant_error">ANT+ fout</string>
+    <string name="ant_open_channel">ANT+ kanaal geopend voor %s</string>
+    <string name="title_gpsaltbaroadjust_preference">Barometer correctie</string>
+    <string name="summary_gpsaltbaroadjuston_preference">Sta de barometer toe de hoogte te corrigeren</string>
+    <string name="summary_gpsaltbaroadjustoff_preference">Sta de barometer niet toe de hoogte te corrigeren</string>
+    <string name="settings_bluetooth_summary">Suunto Dual banden werken niet goed als Bluetooth aan staat!</string>
+    <string name="title_twitter_reset">Verwijder Twitter authorisatie</string>
+    <string name="twitter_reset">Twitter authorisatie verwijderd</string>
+    
+     <!-- String 1.5 release -->
+    <string name="title_imei_preference">IMEI</string>
+    <string name="summary_imei_preference">replacement of default IMEI</string>
+    <string name="ble_not_supported">Bluetooth LE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_bledevices">Scan Bluetooth Smart</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="tts_notinitialized">Text to speech not initialized</string>
+    <string name="say_beats">Heart rate is %s beats per minute</string>
+    <string name="warn_ble_not_available_title">No Bluetooth Low Enery support</string>
+    <string name="warn_ble_not_available_msg">Bluetooth Low Enery devices are not supported by this Android version.</string>
+    <string name="settings_bluetoothle_title">Bluetooth Low Energy</string>
+    <string name="settings_bluetoothle_summary">Bluetooth Low Energy devices</string>
+    <string name="zoom_level">Zoom %d</string>
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_devices">Devices</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_ble">Scan BLE devices</string>
+    <string name="title_activity_beat">Bluetooth Smart</string>
+    <string name="title_activity_scan">Scan Bluetooth Smart</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dialog_title_tilesource_preference">Map tile source</string>
+    <string name="title_tilesource_preference">Map Tile source</string>
+    <string name="summary_tilesource_preference">Open Street Map tile source: []</string>
+    <string name="change_tilesource">Change of tile source requires restart of app.</string>
+    <string name="heartrate_ble">Heart rate BLE.</string>
+    <string name="bleconnect">Trying to connect to Bluetooth Low Energy devices</string>
+    
+
+</resources>

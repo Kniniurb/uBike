@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.plusot.senselib" android:title="@string/ant_preferences">
+
+    <!-- <PreferenceCategory
+        android:key="ant_preferences"
+        android:title="@string/ant_preferences" />
+ -->
+    <com.plusot.senselib.activities.LongCheckBoxPreference
+        android:key="usepairing_preference"
+        android:summaryOff="@string/summary_pairingoff_preference"
+        android:summaryOn="@string/summary_pairingon_preference"
+        android:title="@string/title_usepairing_preference" />
+    <!--
+ 		<PreferenceScreen
+            android:dependency="usepairing_preference"
+            android:key="pair_ant"
+            android:title="@string/settings_pair_title" 
+            android:summary="@string/settings_pair_summary">
+           </PreferenceScreen>        
+    -->
+    <PreferenceScreen
+        android:key="antinfo_settings"
+        android:summary="@string/summary_deviceinfo_preference"
+        android:title="@string/deviceinfo_preference" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="calibrate_power"
+        android:title="@string/settings_calibrate_title" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

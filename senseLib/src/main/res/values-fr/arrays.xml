@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hint_items">
+        <item>Cliquer long sur une fenêtre pour modifier les champs à afficher</item>
+        <item>Cliquer sur le bouton menu pour démarrer, arrêter, voir l\'historique et autres options </item>
+        <item>Cliquer long sur les boutons de volume pour ajuster la luminosité de l\'écran</item>
+        <item>Utiliser le menu \'Réglages, Affichage\' pour changer le nombre de fenêtres affichées</item>
+        <item>Utiliser le menu \'E-Mail\' pour envoyer des graphiques et données par e-mail</item>
+        <item>Consulter les options du menu \'Réglages\' pour accéderr aux fonctionalités avancées, comme la parole</item>
+        <item>Utiliser le menu \'Historique\' pour voir la carte de votre activité</item>
+        <item>Utiliser le menu \'Historique\' pour rejouer les dernières activités</item>
+        <item>Les nombres rouges sont les valeurs maximales. Les vertes sont les valeurs moyennes. Les nombres noirs sont les valeurs actuelles.</item>
+    </string-array>
+    <string-array name="value_popup_dialog_items">
+        <item>Champs à afficher</item>
+        <item>Champs à énoncer</item>
+        <item>Choisir unité</item>
+    </string-array>
+    <string-array name="share_popup_dialog_items">
+        <item>Envoyer un message, email</item>
+        <item>Tweet</item>
+        <item>Envoyer vos données sur TrainingPeaks</item>
+        <item>Envoyer email to Strava</item>
+        <item>Signaler une erreur</item>
+    </string-array>
+    <string-array name="start_popup_dialog_items">
+        <item>Continuer activité</item>
+        <item>Démarrer une nouvelle activité</item>
+        <item>Ne pas démarrer l\'activité immédiatement</item>
+        <item>Retour à l\'étape 1</item>
+    </string-array>
+    <string-array name="stop_popup_dialog_items">
+        <item>Pauser l\'activité</item>
+        <item>Arrêter l\'activité</item>
+    </string-array>
+    <string-array name="entries_voiceinterval_preference">
+        <item>10 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <!-- <item>relevant change only</item> -->
+    </string-array>
+    <string-array name="entryvalues_voiceinterval_preference">
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <!-- <item>3600000</item> -->
+    </string-array>
+    <string-array name="entries_autoswitch_preference">
+        <item>2 secondes</item>
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+        <item>20 secondes</item>
+        <item>jamais</item>
+    </string-array>
+    <string-array name="entryvalues_autoswitch_preference">
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>200000</item>
+        <item>3600000</item>
+    </string-array>
+    <string-array name="entries_gpsinterval_preference">
+        <item>0.5 seconde</item>
+        <item>1 seconde</item>
+        <item>2 secondes</item>
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="entryvalues_gpsinterval_preference">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>50000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
+<!--     <string-array name="entries_gpsmindistance_preference">
+        <item>1 mètre</item>
+        <item>10 mètres</item>
+        <item>100 mètres</item>
+        <item>1 km</item>
+        <item>10 km</item>
+    </string-array>
+    <string-array name="entryvalues_gpsmindistance_preference">
+        <item>1</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+        <item>10000</item>
+    </string-array>
+ -->    <string-array name="entries_replayinterval_preference">
+        <item>1x</item>
+        <item>5x</item>
+        <item>10x</item>
+        <item>25x</item>
+        <item>50x</item>
+        <item>100x</item>
+        <item>250x</item>
+    </string-array>
+    <string-array name="entryvalues_replayinterval_preference">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+    </string-array>
+    <string-array name="entries_windows_preference">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="entries_url">
+        <item>Par Défaut sur bikesenses.nl</item>
+        <item>Test sur bikesenses.nl</item>
+        <item>Local sur 192.168.1.80:9090</item>
+    </string-array>
+    <string-array name="entryvalues_url">
+        <item>http://bikesenses.nl:9090/SensesOnline/data?</item>
+        <item>http://bikesenses.nl:6060/SensesOnline/data?</item>
+        <item>http://192.168.1.80:9090/SensesOnline/data?</item>
+    </string-array>
+    <string-array name="entries_wheelsize">
+        <item>taille personnalisée</item>
+        <item>16 pouce, 50&#8211;305</item>
+        <item>16 pouce, 35&#8211;349</item>
+        <item>16 pouce, 37&#8211;349</item>
+        <item>18 pouce, 40&#8211;355</item>
+        <item>18 pouce, 50&#8211;355</item>
+        <item>20 pouce, 35&#8211;406</item>
+        <item>20 pouce, 40&#8211;406</item>
+        <item>20 pouce, 47&#8211;406</item>
+        <item>20 pouce, 50&#8211;406</item>
+        <item>20 pouce, 54&#8211;406</item>
+        <item>20 pouce, 60&#8211;406</item>
+        <item>24 pouce, 47&#8211;507</item>
+        <item>24 pouce, 50&#8211;507</item>
+        <item>24 pouce, 54&#8211;507</item>
+        <item>24 pouce, 57&#8211;507</item>
+        <item>24 pouce, 60&#8211;507</item>
+        <item>24 pouce, 62&#8211;507</item>
+        <item>26 pouce, 35&#8211;559</item>
+        <item>26 pouce, 40&#8211;559</item>
+        <item>26 pouce, 47&#8211;559</item>
+        <item>26 pouce, 50&#8211;559</item>
+        <item>26 pouce, 54&#8211;559</item>
+        <item>26 pouce, 57&#8211;559</item>
+        <item>26 pouce, 60&#8211;559</item>
+        <item>26 pouce, 37&#8211;590</item>
+        <item>28 pouce, 20&#8211;622</item>
+        <item>28 pouce, 23&#8211;622</item>
+        <item>28 pouce, 25&#8211;622</item>
+        <item>28 pouce, 28&#8211;622</item>
+        <item>28 pouce, 30&#8211;622</item>
+        <item>28 pouce, 32&#8211;622</item>
+        <item>28 pouce, 35&#8211;622</item>
+        <item>28 pouce, 37&#8211;622</item>
+        <item>28 pouce, 40&#8211;622</item>
+        <item>28 pouce, 42&#8211;622</item>
+        <item>28 pouce, 47&#8211;622</item>
+        <item>28 pouce, 50&#8211;622</item>
+        <item>28 pouce, 54&#8211;622</item>
+        <item>28 pouce, 60&#8211;622</item>
+        <item>28 pouce, 32&#8211;630</item>
+        <item>28 pouce, 40&#8211;635</item>
+    </string-array>
+    <string-array name="entryvalues_wheelsize">
+        <item>0</item>
+        <item>1265001</item>
+        <item>1325002</item>
+        <item>1330003</item>
+        <item>1380004</item>
+        <item>1440005</item>
+        <item>1510006</item>
+        <item>1540007</item>
+        <item>1580008</item>
+        <item>1600009</item>
+        <item>1620010</item>
+        <item>1650011</item>
+        <item>1900012</item>
+        <item>1910013</item>
+        <item>1930014</item>
+        <item>1955015</item>
+        <item>1980016</item>
+        <item>1995017</item>
+        <item>1990018</item>
+        <item>2030019</item>
+        <item>2050020</item>
+        <item>2075021</item>
+        <item>2100022</item>
+        <item>2120023</item>
+        <item>2160024</item>
+        <item>2100025</item>
+        <item>2100026</item>
+        <item>2125027</item>
+        <item>2135028</item>
+        <item>2150029</item>
+        <item>2160030</item>
+        <item>2170031</item>
+        <item>2185032</item>
+        <item>2200033</item>
+        <item>2220034</item>
+        <item>2230035</item>
+        <item>2250036</item>
+        <item>2280037</item>
+        <item>2295038</item>
+        <item>2330039</item>
+        <item>2220040</item>
+        <item>2250041</item>
+    </string-array>
+ <!--    <string-array name="entries_proximity_preference">
+        <item>1 bin (proche)</item>
+        <item>2 bin</item>
+        <item>3 bin</item>
+        <item>4 bin</item>
+        <item>5 bin</item>
+        <item>6 bin</item>
+        <item>7 bin</item>
+        <item>8 bin</item>
+        <item>9 bin</item>
+        <item>10 bin (éloigné)</item>
+    </string-array>
+    <string-array name="entryvalues_proximity_preference">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+ -->    <!-- uBike 1.4 -->
+    <string-array name="entries_dim_preference">
+        <item>L\'écran reste éclairé.</item>
+        <item>L\'écran peut s\'assombrir.</item>
+        <item>L\'écran peut s\'éteindre. Approcher la main réveille.</item>
+        <item>L\'écran peut s\'éteindre.</item>
+    </string-array>
+    <string-array name="entryvalues_dim_preference">
+        <item>nodim</item>
+        <item>dim</item>
+        <item>screenoff_wake</item>
+        <item>screenoff</item>
+    </string-array>
+    <string-array name="entries_storage_preference">
+        <item>GPX</item>
+        <item>Training Peaks PWX</item>
+        <item>Dynastream / Garmin FIT</item>
+        <item>Golden Cheetah CSV</item>
+        <item>uBike CSV</item>
+        <item>Fichier texte SRM</item>
+        <item>Capture d\'écran</item>
+    </string-array>
+    <string-array name="entryvalues_storage_preference">
+        <item>GPX</item>
+        <item>PWX</item>
+        <item>FIT</item>
+        <item>GCSV</item>
+        <item>CSV</item>
+        <item>SRM</item>
+        <item>SCR</item>
+    </string-array>
+    <string-array name="default_storage_preference">
+        <item>PWX</item>
+        <item>FIT</item>
+        <item>GCSV</item>
+    </string-array>
+    <string-array name="interval_popup_dialog_items">
+        <item>Nouvel Intervalle [Bouton Caméra]</item>
+        <item>Afficher les intervalles</item>
+    </string-array>
+    <string-array name="intensity_popup_dialog_items">
+        <item>6 Repos</item>
+        <item>7 Très, très léger</item>
+        <item>8</item>
+        <item>9 Très léger</item>
+        <item>10</item>
+        <item>11 Sensiblement léger</item>
+        <item>12</item>
+        <item>13 Quelque peu difficile</item>
+        <item>14</item>
+        <item>15 Difficile</item>
+        <item>16</item>
+        <item>17 Très difficile</item>
+        <item>18</item>
+        <item>19 Très,très difficile</item>
+        <item>20 Maximal</item>
+    </string-array>
+    <string-array name="fitnessorrecovery_popup_dialog_items">
+        <item>6</item>
+        <item>7 Très,très faible</item>
+        <item>8</item>
+        <item>9 Très faible</item>
+        <item>10</item>
+        <item>11 Faible</item>
+        <item>12</item>
+        <item>13 Raisonnable</item>
+        <item>14</item>
+        <item>15 Bon</item>
+        <item>16</item>
+        <item>17 Très bon</item>
+        <item>18</item>
+        <item>19 Très,très bon</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="entries_test_preference">
+        <item>Aucun test.</item>
+        <item>Test.</item>
+        <item>Test Verbeux.</item>
+    </string-array>
+    <string-array name="entryvalues_test_preference">
+        <item>notest</item>
+        <item>test</item>
+        <item>verbose</item>
+    </string-array>
+</resources>

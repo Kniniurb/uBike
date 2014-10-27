@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/bike_preferences" >
+
+<!--      <PreferenceCategory android:title="@string/bike_preferences" /> -->
+    <ListPreference
+        android:dialogTitle="@string/title_bikeprofile_preference"
+        android:key="bikeprofile_preference"
+        android:summary="@string/summary_bikeprofile_preference"
+        android:title="@string/title_bikeprofile_preference" />
+
+    <EditTextPreference
+        android:key="bikeprofilename_preference"
+        android:summary="@string/summary_bikeprofilename_preference"
+        android:title="@string/title_bikeprofilename_preference" />
+
+    <ListPreference
+        android:dialogTitle="@string/title_wheelsize_preference"
+        android:entries="@array/entries_wheelsize"
+        android:entryValues="@array/entryvalues_wheelsize"
+        android:key="wheelsize_preference"
+        android:summary="@string/summary_wheelsize_preference"
+        android:title="@string/title_wheelsize_preference" />
+
+    <EditTextPreference
+        android:defaultValue="2070"
+        android:enabled="false"
+        android:key="wheel_preference"
+        android:summary="@string/summary_wheelcirc_preference"
+        android:title="@string/title_wheelcirc_preference" />
+
+</PreferenceScreen>

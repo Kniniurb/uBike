@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_scan">Scan</string>
+    <string name="action_delete">Delete this device</string>
+    <string name="action_info">View extra info</string>
+    <string name="context_header">Actions for this device</string>
+    <string name="device">Device</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported on this device</string>
+    <string name="title_bledevices">Devices</string>
+    <string name="label_device_address">Device address</string>
+    <string name="label_device_state">Device state</string>
+    <string name="label_data">Data</string>
+    <string name="label_info">Info</string>
+    <string name="no_data">No data</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+	<string name="title_gatt_attributes">uBlue: Device attributes</string>
+    <string name="heartrate">Heart</string>
+    <string name="batterylevel">Battery</string>
+    <string name="temperature">Temperature</string>
+    <string name="wheelrevolutions">Wheel revs</string>
+    <string name="crankrevolutions">Crank revs</string>
+    <string name="unknown">Unknown</string>
+    <string name="bt_not_enabled_leaving">Bluetooth not enable. Quiting app now.</string>
+    <string name="connected_to">Chat service connected to %1$s.</string>
+    
+</resources>

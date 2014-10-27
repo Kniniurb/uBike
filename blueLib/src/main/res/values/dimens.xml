@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="border_radius">15dp</dimen>
+    <dimen name="fieldview_pad">2dp</dimen>
+    <dimen name="label_pad">0dp</dimen>
+    <dimen name="roundborder_pad">2dp</dimen>
+    <dimen name="squareborder_pad">0dp</dimen>
+    <dimen name="deviceinfo_fontsize">18dp</dimen>
+    <dimen name="lapslarge_fontsize">28dp</dimen>
+    <dimen name="lapssmall_fontsize">18dp</dimen>
+    <dimen name="laps_fontsize">20dp</dimen>
+
+</resources>

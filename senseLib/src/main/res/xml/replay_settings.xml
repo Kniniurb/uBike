@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_replay" >
+
+<!--      <PreferenceCategory android:title="@string/settings_replay" /> -->
+    <ListPreference
+        android:dialogTitle="@string/dialog_title_replayinterval_preference"
+        android:entries="@array/entries_replayinterval_preference"
+        android:entryValues="@array/entryvalues_replayinterval_preference"
+        android:key="replayinterval_preference"
+        android:summary="@string/summary_replayinterval_preference"
+        android:title="@string/title_replayinterval_preference" />
+
+</PreferenceScreen>

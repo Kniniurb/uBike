@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/http_preferences" >
+
+    <!-- <PreferenceCategory android:title="@string/http_preferences" /> -->
+    <com.plusot.senselib.activities.LongCheckBoxPreference
+        android:key="http_preference"
+        android:summaryOff="@string/summary_off_http_preference"
+        android:summaryOn="@string/summary_on_http_preference"
+        android:title="@string/title_http_preference" />
+
+    <EditTextPreference
+        android:dependency="http_preference"
+        android:key="displayname_preference"
+        android:summary="@string/summary_displayname_preference"
+        android:title="@string/title_displayname_preference" />
+    <!--
+         <EditTextPreference
+        android:key="imei_preference"
+        android:summary="@string/summary_imei_preference"
+        android:title="@string/title_imei_preference" />
+    -->
+    <com.plusot.senselib.activities.LongCheckBoxPreference
+        android:dependency="http_preference"
+        android:key="shareprivacy_preference"
+        android:summaryOff="@string/summary_off_shareprivacy_preference"
+        android:summaryOn="@string/summary_on_shareprivacy_preference"
+        android:title="@string/title_shareprivacy_preference" />
+
+    <PreferenceScreen
+        android:key="http_link"
+        android:title="http://bikesenses.nl/uBike.php" >
+        <intent android:action="http://bikesenses.nl/uBike.php" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="@string/trainingpeaks_category" />
+
+    <EditTextPreference
+        android:key="trainingpeaks_user"
+        android:summary="@string/summary_tpuser_preference"
+        android:title="@string/title_tpuser_preference" />
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="trainingpeaks_password"
+        android:summary="@string/summary_tppassword_preference"
+        android:title="@string/title_tppassword_preference" />
+
+    <PreferenceScreen
+        android:key="twitter_reset"
+        android:title="@string/title_twitter_reset" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/hint_border"
+    android:gravity="center" >
+
+    <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/hint_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:heightPercentage="0.10"
+        app:text="@string/hint_title"
+        app:textAlpha="0xAA"
+        app:textColor="@color/dim_value_color" />
+
+    <View
+        android:id="@+id/hint_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/hint_title"
+        android:layout_marginBottom="5dp"
+        android:background="#99AAFFBB"
+        android:paddingTop="5dp" />
+
+    <!--
+         <com.plusot.senselib.widget.FitLabelView
+        android:id="@+id/hint_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/hint_line2"
+        android:layout_below="@+id/hint_line1"
+        app:heightPercentage="0.9"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:text="@string/hint_value_click"
+        app:textAlpha="0xBB"
+        app:textColor="@color/value_color" />
+    -->
+
+    <TextView
+        android:id="@+id/hint_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/hint_line2"
+        android:layout_below="@+id/hint_line1"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/hint_value_click"
+        android:textColor="@color/value_color"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:id="@+id/hint_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <Button
+            android:id="@+id/hint_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            
+         />
+        <!--
+             <Button
+            android:id="@+id/hint_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_hints" />
+        -->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/hint_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/hint_button_layout"
+        android:layout_marginBottom="5dp"
+        android:background="#99AAFFBB"
+        android:paddingTop="5dp" />
+
+</RelativeLayout>

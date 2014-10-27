@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_margin">10dp</dimen>
+    <dimen name="splash_font_value">20dp</dimen>
+    <dimen name="splash_font_text">18dp</dimen>
+    <dimen name="splash_font_title">24dp</dimen>
+</resources>

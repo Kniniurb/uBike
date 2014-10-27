@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidCommon/androidCommon.iml" filepath="$PROJECT_DIR$/androidCommon/androidCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blueLib/blueLib.iml" filepath="$PROJECT_DIR$/blueLib/blueLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaCommon/javaCommon.iml" filepath="$PROJECT_DIR$/javaCommon/javaCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/senseLib/senseLib.iml" filepath="$PROJECT_DIR$/senseLib/senseLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uBikeBeta/uBikeBeta.iml" filepath="$PROJECT_DIR$/uBikeBeta/uBikeBeta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ubikeStudio.iml" filepath="$PROJECT_DIR$/ubikeStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheelGadget/wheelGadget.iml" filepath="$PROJECT_DIR$/wheelGadget/wheelGadget.iml" />
+    </modules>
+  </component>
+</project>
+

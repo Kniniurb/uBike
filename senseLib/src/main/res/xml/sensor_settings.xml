@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.plusot.senselib"
+    android:key="parent"
+    android:title="@string/settings_title" >
+
+    <!--
+         <PreferenceCategory android:key="settings_category"
+            android:title="@string/settings_title" />
+    -->
+    <PreferenceScreen
+        android:key="set_level"
+        android:title="@string/settings_level_title" >
+    </PreferenceScreen>
+
+</PreferenceScreen>

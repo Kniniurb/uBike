@@ -1,0 +1,31 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '20.0.0'
+    defaultConfig {
+        applicationId 'com.plusot.ubikebeta2'
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionName '2.0'
+    }
+    signingConfigs {
+        debug {
+            storeFile file('../../dist/debug.keystore');
+        }
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':wheelGadget')
+    compile project(':blueLib')
+    compile project(':senseLib')
+}

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/hint_border" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.plusot.senselib.widget.FitLabelView
+            android:id="@+id/laps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:heightPercentage="0.12"
+            app:text="@string/laps_title"
+            app:textAlpha="0xAA"
+            app:textColor="@color/dim_value_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#99AAFFBB"
+            android:paddingTop="5dp" />
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text="@string/average_short"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text="@string/max_short"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapssmall_fontsize" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:text="@string/time"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize" />
+
+                <TextView
+                    android:id="@+id/laps_duration"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapssmall_fontsize" />
+            </TableRow>
+
+            
+
+            <TableRow android:id="@+id/laps_row_speed" >
+
+                <TextView
+                    android:text="@string/speed"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:id="@+id/laps_avg_speed"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_max_speed"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_unit_speed"
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapssmall_fontsize" />
+            </TableRow>
+
+            <TableRow android:id="@+id/laps_row_cadence" >
+
+                <TextView
+                    android:text="@string/cadence"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:id="@+id/laps_avg_cadence"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_max_cadence"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_unit_cadence"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapssmall_fontsize" />
+            </TableRow>
+
+            <TableRow android:id="@+id/laps_row_power" >
+
+                <TextView
+                    android:text="@string/power"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:id="@+id/laps_avg_power"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_max_power"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_unit_power"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapssmall_fontsize" />
+            </TableRow>
+
+            <TableRow android:id="@+id/laps_row_heartrate" >
+
+                <TextView
+                    android:text="@string/heart_beat"
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/laps_fontsize" />
+
+                <TextView
+                    android:id="@+id/laps_avg_heartrate"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_max_heartrate"
+                    android:gravity="right"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapslarge_fontsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laps_unit_heartrate"
+                    android:text=""
+                    android:textColor="@color/info_fontcolor"
+                    android:textSize="@dimen/lapssmall_fontsize" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#99AAFFBB"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:id="@+id/laps_player_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/laps_previousbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_previous" />
+
+            <Button
+                android:id="@+id/laps_nextbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/ic_next" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

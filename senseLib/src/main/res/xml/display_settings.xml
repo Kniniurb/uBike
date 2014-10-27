@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/display_preferences" >
+
+    <!-- <PreferenceCategory android:title="@string/display_preferences" /> -->
+    <ListPreference
+        android:dialogTitle="@string/dialog_title_windows_preference"
+        android:entries="@array/entries_windows_preference"
+        android:entryValues="@array/entries_windows_preference"
+        android:key="windows_preference"
+        android:summary="@string/summary_windows_preference"
+        android:title="@string/title_windows_preference" />
+    <ListPreference
+        android:entries="@array/entries_dim_preference"
+        android:entryValues="@array/entryvalues_dim_preference"
+        android:key="maydim_preference"
+        android:summary="@string/summary_dim_preference"
+        android:title="@string/title_dim_preference" />
+
+    <PreferenceScreen
+        android:summary="@string/settings_android_display_detail"
+        android:title="@string/settings_android_display" >
+        <intent android:action="android.settings.DISPLAY_SETTINGS" />
+    </PreferenceScreen>
+    <!--
+          <ListPreference
+        android:dialogTitle="@string/dialog_title_sleep_preference"
+        android:entries="@array/entries_sleep_preference"
+        android:entryValues="@array/entryvalues_sleep_preference"
+        android:key="sleep_preference"
+        android:summary="@string/summary_sleep_preference"
+        android:title="@string/title_sleep_preference" />
+    -->
+    <ListPreference
+        android:dialogTitle="@string/dialog_title_autoswitch_preference"
+        android:entries="@array/entries_autoswitch_preference"
+        android:entryValues="@array/entryvalues_autoswitch_preference"
+        android:key="autoswitch_preference"
+        android:summary="@string/summary_autoswitch_preference"
+        android:title="@string/title_autoswitch_preference" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="click_preference"
+        android:summaryOff="@string/summary_noclick_preference"
+        android:summaryOn="@string/summary_click_preference"
+        android:title="@string/title_click_preference" />
+    <CheckBoxPreference
+        android:key="hasmap_preference"
+        android:summaryOff="@string/summary_nohasmap_preference"
+        android:summaryOn="@string/summary_hasmap_preference"
+        android:title="@string/title_hasmap_preference" />
+
+    <ListPreference
+        android:dependency="hasmap_preference"
+        android:dialogTitle="@string/dialog_title_tilesource_preference"
+        android:key="tilesource_preference"
+        android:summary="@string/summary_tilesource_preference"
+        android:title="@string/title_tilesource_preference" />
+
+    <CheckBoxPreference
+        android:key="xtravalues_preference"
+        android:summaryOff="@string/summary_noxtravalues_preference"
+        android:summaryOn="@string/summary_xtravalues_preference"
+        android:title="@string/title_xtravalues_preference" />
+    
+    <com.plusot.senselib.settings.MaxHeartrateDialogPreference
+        android:dependency="xtravalues_preference"
+        android:dialogMessage="@string/dialogmsg_maxheartrate_preference"
+        android:key="maxheartrate_preference"
+        android:summary="@string/summary_maxheartrate_preference"
+        android:title="@string/title_maxheartrate_preference" />
+
+    <PreferenceScreen
+        android:key="resettotals_preference"
+        android:title="@string/reset_totals" >
+    </PreferenceScreen>
+
+    
+    <ListPreference
+        android:entries="@array/entries_test_preference"
+        android:entryValues="@array/entryvalues_test_preference"
+        android:key="test_preference"
+        android:summary="@string/summary_test_preference"
+        android:title="@string/title_test_preference" />
+    <!--
+    <CheckBoxPreference
+        android:key="testing_preference"
+        android:summaryOff="@string/summary_notesting_preference"
+        android:summaryOn="@string/summary_testing_preference"
+        android:title="@string/title_testing_preference" />
+    -->
+
+</PreferenceScreen>

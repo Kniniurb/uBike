@@ -1,0 +1,132 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidCommon:
+* .DS_Store
+* proguard-project.txt
+From BikesensesCommon:
+* proguard-project.txt
+From BlueLib:
+* .DS_Store
+* ic_launcher-web.png
+* ic_scan-web.png
+* proguard-project.txt
+From JavaCommon:
+* .DS_Store
+* proguard-project.txt
+From SenseLib:
+* .DS_Store
+* build.xml
+* doc/
+* doc/osmdroid-android-3.0.10-javadoc.jar
+* ic_argos-web.png
+* ic_ble-web.png
+* ic_gpx-web.png
+* ic_history-web.png
+* ic_interval-web.png
+* ic_next-web.png
+* ic_previous-web.png
+* ic_settings-web.png
+* ic_share-web.png
+* ic_start-web.png
+* ic_stop-web.png
+* proguard.cfg
+From WheelGadget:
+* .DS_Store
+* proguard-project.txt
+From uBikeBeta:
+* .DS_Store
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In JavaCommon:
+* AndroidManifest.xml => javaCommon/src/main/AndroidManifest.xml
+* assets/ => javaCommon/src/main/assets/
+* res/ => javaCommon/src/main/res/
+* src/ => javaCommon/src/main/java/
+In AndroidCommon:
+* AndroidManifest.xml => androidCommon/src/main/AndroidManifest.xml
+* assets/ => androidCommon/src/main/assets/
+* res/ => androidCommon/src/main/res/
+* src/ => androidCommon/src/main/java/
+In BikesensesCommon:
+* AndroidManifest.xml => bikesensesCommon/src/main/AndroidManifest.xml
+* assets/ => bikesensesCommon/src/main/assets/
+* res/ => bikesensesCommon/src/main/res/
+* src/ => bikesensesCommon/src/main/java/
+In BlueLib:
+* AndroidManifest.xml => blueLib/src/main/AndroidManifest.xml
+* assets/ => blueLib/src/main/assets/
+* lint.xml => blueLib/lint.xml
+* res/ => blueLib/src/main/res/
+* src/ => blueLib/src/main/java/
+In WheelGadget:
+* AndroidManifest.xml => wheelGadget/src/main/AndroidManifest.xml
+* assets/ => wheelGadget/src/main/assets/
+* res/ => wheelGadget/src/main/res/
+* src/ => wheelGadget/src/main/java/
+In SenseLib:
+* AndroidManifest.xml => senseLib/src/main/AndroidManifest.xml
+* assets/ => senseLib/src/main/assets/
+* libs/GoogleAdMobAdsSdk-6.4.1.jar => senseLib/libs/GoogleAdMobAdsSdk-6.4.1.jar
+* libs/activation.jar => senseLib/libs/activation.jar
+* libs/additionnal.jar => senseLib/libs/additionnal.jar
+* libs/antlib.jar => senseLib/libs/antlib.jar
+* libs/mail.jar => senseLib/libs/mail.jar
+* libs/osmdroid-android-4.2.jar => senseLib/libs/osmdroid-android-4.2.jar
+* libs/slf4j-android-1.6.1-RC1.jar => senseLib/libs/slf4j-android-1.6.1-RC1.jar
+* libs/twitter4j-core-3.0.5.jar => senseLib/libs/twitter4j-core-3.0.5.jar
+* lint.xml => senseLib/lint.xml
+* res/ => senseLib/src/main/res/
+* src/ => senseLib/src/main/java/
+In uBikeBeta:
+* AndroidManifest.xml => uBikeBeta/src/main/AndroidManifest.xml
+* assets/ => uBikeBeta/src/main/assets/
+* res/ => uBikeBeta/src/main/res/
+* src/ => uBikeBeta/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

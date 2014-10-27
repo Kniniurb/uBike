@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.plusot.ubikebeta"
+    android:installLocation="preferExternal"
+    android:versionCode="150"
+    android:versionName="2.0" > <!-- αλφα ßήτα -->
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+
+    <!-- <uses-permission android:name="android.permission.DUMP" /> -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.dsi.ant.permission.ANT" />
+    <uses-permission android:name="com.dsi.ant.permission.ANT_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- android:theme="@android:style/Theme.NoTitleBar" -->
+    <application
+        android:name="com.plusot.ubikebeta.UBikeBetaApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/ThemeBikeSens" >
+
+        <activity
+            android:name="com.plusot.senselib.SenseMain"
+            android:alwaysRetainTaskState="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:mimeType="text/csv" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.plusot.senselib.twitter.TweetActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="ubike"
+                    android:scheme="oauth" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.plusot.senselib.activities.SettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.AntSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.BikeSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.BikeSettingsCustomActivity" />
+        <activity android:name="com.plusot.senselib.activities.DisplaySettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.SpeechSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.ShareSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.SensorSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.GpsSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.AntDeviceInfoActivity" />
+        <activity android:name="com.plusot.senselib.activities.UrlSettingsActivity" />
+        <activity android:name="com.plusot.senselib.activities.HistorySettingsActivity" />
+        <activity android:name="com.plusot.bluelib.UBlueMain" />
+        <activity
+            android:name="com.plusot.bluelib.ble.GattAttributesActivity"
+            android:label="@string/title_gatt_attributes" >
+        </activity>
+        <service
+            android:name="com.plusot.senselib.ant.AntPlusService"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <!-- <uses-library android:name="com.dsi.ant.antradio_library" /> -->
+    </application>
+
+</manifest>

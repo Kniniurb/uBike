@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GraphView">
+        <attr name="borderTop" format="dimension" />
+        <attr name="borderLeft" format="dimension" />
+        <attr name="borderRight" format="dimension" />
+        <attr name="borderBottom" format="dimension" />
+        <attr name="background" format="color" />
+        <attr name="alpha" format="integer" />
+    </declare-styleable>
+     <declare-styleable name="LabelView">
+        <attr name="text" format="string" />
+        <attr name="textAlpha" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="heightPercentage" format="float" />
+        <attr name="widthPercentage" format="float" />
+        <attr name="textAlign" format="integer" />
+    </declare-styleable>
+    
+</resources>

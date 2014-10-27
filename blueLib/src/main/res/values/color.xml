@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    Lime'Kick: kuler.adobe.com
+    black: #0F0F0F 
+    darkgray: #282828
+    lime: #B2FF00
+    gray: #C8C8C8
+    lightgray: #FFFFFF
+    
+    Shades of Lime'Kick
+    green: #597F00 #85BF00 #2C4000 #A0E500
+    -->
+    <color name="base_color">#FF6AFF00</color>
+    <color name="darkest_basecolor">#FF357F00</color>
+    <color name="darker_basecolor">#FF4B7F26</color>
+    <color name="lighter_basecolor">#FF55CC00</color>
+    <color name="lightest_basecolor">#FF97FF4C</color>
+  	
+  	
+  	<color name="graph1_color">#FF00FF00</color>
+    <color name="graph2_color">#FFFF0000</color>
+    <color name="graph3_color">#FF0000FF</color>
+    <color name="graph4_color">#FF00FFFF</color>
+    <color name="graph5_color">#FFFF00FF</color>
+  	<color name="graph6_color">#FF999900</color>
+  
+<!--  
+    
+    <color name="darkest_color">#FF000000</color>
+    <color name="lighter_color">#FFC8C8C8</color>
+    <color name="lightest_color">#FFFFFFFF</color>
+    <color name="background_color">#FF000000</color>
+    
+-->
+    <color name="darker_color">#FF282828</color>
+    <color name="border_background_color">#FFFFFFFF</color>
+    <color name="hint_background_color">#AAAAFFBB</color>
+    <color name="squareborder_backgroundcolor">#AAFFBB</color>
+    <color name="squareborder_color">#000000</color>
+    <color name="info_fontcolor">#FF000000</color>
+    <color name="value_color">#BB000000</color>
+    <color name="dim_value_color">#CC114411</color>
+    <color name="maxvalue_color">#FFFF0000</color>
+    <color name="avgvalue_color">#FF037F0C</color>
+    <color name="deltaup_color">#FF446699</color>
+    <color name="deltadown_color">#FF446699</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

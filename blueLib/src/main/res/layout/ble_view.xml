@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/round_border"
+    android:gravity="center"
+    android:longClickable="true"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/bleDeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/device"
+        android:textColor="#883333"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/bleDeviceAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy"
+        android:textColor="#883333"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/bleMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/bleMeasurementType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:text="@string/heartrate"
+            android:textColor="#883333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bleMeasurementData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nul"
+            android:textColor="#883333"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bleMeasurementUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="@string/bpm"
+            android:textColor="#883333"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bleMeasurement2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/bleMeasurementType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:text="@string/heartrate"
+            android:textColor="#883333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bleMeasurementData2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nul"
+            android:textColor="#883333"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bleMeasurementUnit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="@string/bpm"
+            android:textColor="#883333"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bleDeviceTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/dummy"
+        android:textColor="#883333"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/bleBatteryLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/dummy"
+        android:textColor="#883333"
+        android:textSize="12sp"
+        android:visibility="gone" />
+	<TextView
+        android:id="@+id/bleTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/dummy"
+        android:textColor="#883333"
+        android:textSize="12sp"
+        android:visibility="gone" />
+    
+</LinearLayout>

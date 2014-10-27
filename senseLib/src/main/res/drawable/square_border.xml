@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="2dp" android:color="@color/squareborder_backgroundcolor" />
+    <solid android:color="@color/squareborder_color"/>
+    <padding android:left="@dimen/squareborder_pad" android:top="@dimen/squareborder_pad"
+            android:right="@dimen/squareborder_pad" android:bottom="@dimen/squareborder_pad" />
+    <corners android:radius="2dp" />
+</shape>

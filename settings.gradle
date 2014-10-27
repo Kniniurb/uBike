@@ -1,0 +1,6 @@
+include ':javaCommon'
+include ':androidCommon'
+include ':blueLib'
+include ':wheelGadget'
+include ':senseLib'
+include ':uBikeBeta'

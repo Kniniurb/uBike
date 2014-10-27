@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/plusot/senselib/store/DataLog.java" />
+        <ignore path="src/com/plusot/senselib/values/Device.java" />
+        <ignore path="src/com/plusot/senselib/values/DeviceType.java" />
+        <ignore path="src/com/plusot/senselib/widget/BaseGraph.java" />
+    </issue>
+</lint>

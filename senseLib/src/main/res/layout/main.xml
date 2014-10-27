@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout 
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:paddingBottom="1dp"
+	android:paddingTop="1dp"
+	android:paddingLeft="1dp"
+	android:paddingRight="1dp" 
+	 
+    android:orientation="vertical" >
+<!-- 
+android:keepScreenOn = "true"  
+	android:background="@color/background_color"
+ -->
+    <LinearLayout
+        android:id="@+id/double1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/double2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/double3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/double4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/status_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/hint_border"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:textColor="@color/info_fontcolor"
+    android:visibility="gone"
+    
+    
+/>
+
+</RelativeLayout>

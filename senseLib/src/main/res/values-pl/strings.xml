@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <!-- General -->
+
+    <string name="up">Pod górkę</string>
+    <string name="down">W dół</string>
+    <string name="hello">Startujemy</string>
+    <string name="app_stopped">%1$s zatrzymano</string>
+    <!-- <string name="install_ant">Do poprawnej pracy potrzebujesz ANT Radio Service. Możesz go zainstalować z Google Play</string> -->
+    <!-- Devices -->
+
+    <string name="heartratemonitor">Pulsometr</string>
+    <string name="heartratemonitor2">Pulsometr 2</string>
+    <string name="heartratesuunto">Pulsometr Suunto</string>
+    <string name="heartratezephyr">Pulsometr Zephyr</string>
+    <string name="bikespeedcadence">Czujnik prędkości i kadencji</string>
+    <string name="bikespeed">Czujnik prędkości</string>
+    <string name="bikecadence">Czujnik kadencji</string>
+    <string name="bikepower">Czujnik mocy</string>
+    <string name="bikepower2">Czujnik mocy 2</string>
+    <string name="bikepower3">Czujnik mocy 3</string>
+    <string name="bikepower4">Czujnik mocy 4</string>
+    <string name="locationdevice">GPS</string>
+    <string name="timedevice">Zegar</string>
+    <string name="winddevice">Czujnik wiatru</string>
+    <string name="airpressuresensor">Czujnik ciśnienia</string>
+    <string name="batterysensor">Bateria</string>
+    <string name="accelerometer">Akcelerometr</string>
+    <string name="magneticdevice">Kompas</string>
+    <!-- <string name="proximitysensor">Czujnik zbliżeniowy</string> -->
+
+
+    <!-- Hints -->
+
+    <string name="hint_long_click">Przytrzymaj okienko aby zmienić widok</string>
+    <string name="hint_value_click">Kliknij aby zmienić wskazywaną wartość</string>
+
+    <!-- Toasts -->
+    <!-- <string name="toast_stop">Pomiar zakończony.</string> -->
+    <string name="toast_pause">Pomiar wstrzymany.</string>
+
+    <!-- Menu items -->
+
+    <string name="menu_startstop">Rozpocznij/Zatrzymaj trening</string>
+    <!-- <string name="menu_record">Nagrywanie</string> -->
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_sendmail">Wyślij</string>
+    <string name="menu_history">Historia</string>
+    <!-- <string name="menu_map">Mapa</string> -->
+    <!-- Popups -->
+
+    <string name="voicevaluepopup">Wskazania które będą czytane</string>
+    <string name="startpopup">Trening</string>
+    <string name="movestartpopup">Wykryto ruch: Wystartować?</string>
+    <string name="stoppopup">Zatrzymanie lub pauza treningu</string>
+    <!-- <string name="historypopup">Historia</string> -->
+    <string name="sharepopup">Udostępnij</string>
+    <string name="unitpopup">Wybierz jednostki</string>
+    <string name="valuepopup">Wybierz wartość</string>
+    <string name="yearpopup">Wybierz rok</string>
+    <string name="monthpopup">Wybierz miesiąc</string>
+    <string name="daypopup">Wybierz dzień</string>
+    <string name="timespopup">Wybierz czas</string>
+    <string name="no_unit_choice">To pole nie ma możliwości wyboru jednostki</string>
+    <string name="no_year_choice">Brak danych historycznych</string>
+    <string name="no_month_choice">Brak danych historycznych w %1$s</string>
+    <string name="chosen_file">Wybrany plik</string>
+    <string name="set_level">Aktualne nachylenie jako 0</string>
+    <string name="step1settingspopup">Krok 1 z 2: Ustawienia&lt;BR&gt; (kliknij aby zmienić)</string>
+    <string name="step2startpopup">Krok 2 of 2: Trening</string>
+    <string name="step_continue">Następny krok</string>
+    <!-- <string name="popitem_wheelcirumference">Obwód koła wynosi %1$d mm</string> -->
+    <string name="popitem_bluetooth_on">Bluetooth jest włączony</string>
+    <string name="popitem_bluetooth_off">Bluetooth jest wyłączony</string>
+    <string name="popitem_pairing_on">%1$s połączy się tylko z poprzednio podłączonymi sensorami ANT+</string>
+    <string name="popitem_pairing_off">%1$s połączy się ze wszystkimi sensorami ANT+ w zasięgu</string>
+
+    <!-- Dialog texts -->
+
+    <string name="no_device_info_yet">Jeszcze nie ma informacji o sensorze ANT+</string>
+    <!-- <string name="no_location">Jeszcze nie ma informacji o lokalizacji.</string> -->
+    <string name="app_quitmessage">Czy chcesz wyjść z aplikacji %1$s</string>
+    <string name="level_message">Aktualne nachylenie jest ustawione jako poziom odniesienia</string>
+    <string name="button_yes">Tak</string>
+    <string name="button_no">Nie</string>
+    <string name="button_confirm">OK</string>
+    <string name="button_cancel">Anuluj</string>
+    <!-- <string name="invalid_value">Nieprawidłowa wartość</string> -->
+    <string name="deviceinfo_title">Urządzenie ANT</string>
+    <string name="hint_title">Podpowiedź %1$d z %2$d</string>
+    <!--
+    <string name="more_hints">Więcej</string>
+    <string name="hint_atstart">Pokarz przy starcie</string>
+    -->
+    <string name="about_title">O programie</string>
+    <string name="no_sd_title">Brak karty SD</string>
+    <string name="no_sd_message">Brak karty SD. Nie można zapisać na niej danych.</string>
+    <!--
+        <string name="recording_title">Nagrywanie wiadomości głosowych</string>
+     <string name="recording_message">Mów do mikrofonu aby nagrać wiadomość.</string>
+    <string name="recording_notavailable">Twoja wiadomość nie może być nagrana. Brak urządzenia do nagrywania.</string>
+    <string name="recording_stopped">Nagrywanie zakończone. Odtwarzanie nagrania</string>
+     <string name="player_title">Odtwarzacz wiadomości głosowych</string>
+    <string name="player_message">Nagranie nr %1$s. Naciśnij przycisk aby odtworzyć nagranie.</string>
+     <string name="player_playing">Odtwrzanie nagrania %1$d z %2$d. Data nagrania %3$s</string>
+    <string name="player_nothingtoplay">Brak nagrań do odtworzenia.</string>
+    -->
+    <string name="dialog_calibrate_title">Skalibruj sensor mocy</string>
+    <string name="dialog_calibrate_msg">Czy chcesz skalibrować sensor mocy? Sprawdź w instrukcji twojego sensora jak to zrobić.</string>
+    <string name="warn_stopactivity_title">Odtworzenie historii spowoduje zatrzymanie</string>
+    <string name="warn_stopactivity_msg">Odtworzenie poprzedniego treningu spowoduje zatrzymani aktualnego. Czy chcesz kontynuować?</string>
+    <!--
+         <string name="warn_stopnomailactivity_title">Czy chcesz zatrzymać?</string>
+    <string name="warn_stopnomailactivity_msg">Czy chcesz zatrzymać trening? Jeśli zatrzymasz trening, będziesz mógł go wysłać po odtworzeniu treningu z historii. Zawsze możesz zobaczyć swój trening na osobistej stronie www.bikeseses.net jeśli włączyłeś udostępnianie online.</string>
+    <string name="warn_stepactivity_title">krok 1 i 2 </string>
+    <string name="warn_stepactivity_msg">Powtórzenie kroków 1 i 2 zatrzyma aktualny trening. Czy chcesz kontynuować?</string>
+    -->
+    <string name="warn_reset_title">Reset wyczyści wszystkie statystyki</string>
+    <string name="warn_reset_msg">Ta akcja wyczyści twoje statystyki takie jak czas treningów, dystans, całkowita energia itp. Czy chcesz kontynuować?</string>
+    <string name="warn_nospeech_title">przetwarzanie tekstu na mowę jest wyłączone</string>
+    <string name="warn_nospeech_msg">Aby móc słuchać odczytu wartości podczas treningu włącz przetwarzanie tekstu na mowę. Czy chcesz zrobić to teraz?</string>
+    <string name="warn_nobluetooth_title">Bluetooth jest wyłączony</string>
+    <string name="warn_nobluetooth_msg">Ta aplikacja może połączyć się z stacją pogodową Kestrel tylko jeśli Bluetooth jest włączony. Czy chcesz włączyć to teraz?</string>
+    <!--
+         <string name="warn_replaytodb_title">Wyślij historię do bazy danych</string>
+    <string name="warn_replaytodb_msg">Czy chcesz wysłać historię do bazy danych online?</string>
+    <string name="warn_lite_msg">Ta opcja nie jest dostępna w wersji darmowej. Przejdź do Google Play i kup pełną wersję aplikacji.</string>
+    <string name="warn_lite_title">wersja darmowa</string>
+    <string name="warn_lite_summary">nie dostępne w wersji darmowej</string>
+    -->
+    <string name="trainingpeaks_upload_success">TrainingPeaks upload poprawny</string>
+    <string name="trainingpeaks_upload_failed">TrainingPeaks upload nie powiódł się!</string>
+    <string name="warn_nopassword_title">nieznany użytkownik</string>
+    <string name="warn_nopassword_msg">Podałeś zły login lub hasło. Czy chcesz przejść do ustawień loginu i hasła?</string>
+    <string name="tp_file">Przesyłanie pliku: %s</string>
+    <string name="tp_progress">Przesyłanie w toku, %d wysłanych bajtów</string>
+    <string name="tp_result_success">Wysłano %s bajtów</string>
+    <string name="tp_result_notok">Nie przyjęte przez TrainingPeaks (%s)</string>
+    <string name="tp_result_nofile">Brak pliku do wysłania</string>
+    <string name="tp_result_closeingapp">Aplikacja się zamyka</string>
+    <string name="tp_result_wrongurl">Adres URL %s jest nieprawidłowy</string>
+    <string name="tp_result_communicationfailure">Komunikacja z serwerem nie powiodła się. Prawdopodobnie przez błędne hasło lub login (%s)</string>
+    <string name="tp_result_filenotfound">Plik %s nie został odnaleziony</string>
+    <string name="tp_result_unknownerror">Nieznany błąd %s</string>
+    <string name="dialog_gps_on">GPS nie jest włączony. Czy chcesz go włączyć?</string>
+
+    <!-- Fields -->
+
+    <string name="valuetime">Integralny</string>
+    <string name="normalized">Znormalizowany</string>
+    <string name="variance">Zmienność</string>
+    <string name="pulsewidth">Interwał uderzeń serca</string>
+    <string name="efficiency">wydajność</string>
+    <string name="humidity">Wilgotność</string>
+    <string name="temperature">Temperatura</string>
+    <string name="windspeed">Prędkość wiatru</string>
+    <string name="airpressure">Ciśnienie</string>
+    <string name="slope">Procent nachylenia</string>
+    <!-- <string name="slope_angle">Kąt nachylenia</string> -->
+    <string name="heart_beat">Puls</string>
+    <string name="speed">Prędkość</string>
+    <string name="vertspeed">Prędkość pionowa</string>
+    <string name="wheel_revs">Obroty koła</string>
+    <string name="time">Czas</string>
+    <string name="day">Dzień</string>
+    <!-- <string name="hour">Godzina</string> -->
+    <string name="minutes">Minuty</string>
+    <string name="seconds">Sekundy</string>
+    <string name="distance">Dystans</string>
+    <string name="cadence">Kadencja</string>
+    <string name="gearratio">Przełożenie</string>
+    <string name="power">Moc</string>
+    <string name="power_pedal">Współczynnik pedałowania do mocy</string>
+    <string name="altitude">Wysokość</string>
+    <string name="location">Położenie</string>
+    <string name="bearing">Azymut</string> <!-- ??? is it magnetic bearing -->
+    <!-- <string name="address">Adres</string> -->
+    <string name="satellites">Satelity</string>
+
+    <!-- Splash totals -->
+    <string name="splash_totals">Podsumowanie</string>
+    <string name="splash_rides">Treningi</string>
+    <string name="splash_distance">Dystans</string>
+    <string name="splash_time">Czas</string>
+    <string name="splash_energy">Energia</string>
+    <string name="splash_ascent">Podjazdy</string>
+    <string name="splash_altitude">Największa wysokość</string>
+    <string name="splash_lasttimesent">Ostatnia synchronizacja z siecią</string>
+
+    <!-- Overview -->
+    <string name="overview_activity">Podsumowanie treningu</string>
+    <string name="overview_alltime">Podsumowanie</string>
+    <string name="overview_avg_heartrate">Średni puls</string>
+    <string name="overview_max_heartrate">Maksymalny puls</string>
+    <string name="overview_avg_speed">Średnia prędkość</string>
+    <string name="overview_max_speed">Maksymalna prędkość</string>
+    <string name="overview_distance">Dystans</string>
+    <string name="overview_total_distance">Całkowity dystans</string>
+    <string name="overview_ascent">Podjazdy </string>
+    <string name="overview_descent">Zjazdy</string>
+    <string name="overview_lowest_altitude">najniższa wysokość</string>
+    <string name="overview_highest_altitude">najwyższa wysokość</string>
+    <string name="overview_total_altitude">Całkowity podjazd</string>
+    <string name="overview_avg_power">Średnia moc</string>
+    <string name="overview_normalized_power">Moc znormalizowana</string>
+    <string name="overview_max_power">Największa moc</string>
+    <string name="overview_energy">Energia</string>
+    <string name="overview_avg_windspeed">Średnia siła wiatru</string>
+    <string name="overview_max_windspeed">Maksymalna siła wiatru</string>
+    <string name="overview_time">Czas trwania treningu</string>
+    <string name="overview_starttime">Start treningu</string>
+    <string name="overview_total_time">Czas całkowity</string>
+    <string name="overview_total_energy">Całkowita energia</string>
+    <string name="overview_avg_cadence">Średnia kadencja</string>
+    <!-- <string name="overview_max_vertspeed">Największa prędkość pionowa</string> -->
+    <string name="overview_rides">Całkowita liczba treningów</string>
+    <string name="overview_avg_efficiency">Średnia wydajność</string>
+
+    <!-- Units -->
+
+    <string name="value">Aktualna wartość</string>
+    <string name="average">Średnia</string>
+    <string name="max">Maksimum</string>
+    <string name="min">Minimum</string>
+    <string name="effic_choice">Wydajność w J/hb</string>
+    <string name="kph_choice">Prędkość w km/h</string>
+    <string name="mph_choice">Prędkość w mph</string>
+    <string name="mps_choice">Prędkość w m/s</string>
+    <string name="fps_choice">Prędkość w ft/s</string>
+    <string name="fpm_choice">Prędkość ft/m</string>
+    <string name="beaufort_choice">Beaufort</string>
+    <string name="knot_choice">Prędkość w knots</string>
+    <string name="rpm_choice">Obroty na minutę</string>
+    <string name="bpm_choice">Uderzenia na minutę</string>
+    <string name="pulse_choice">Długość pulsu w ms</string>
+    <string name="count_choice">Liczba</string>
+    <string name="datetime_choice">Jako data i czas</string>
+    <string name="degree_choice">Kąt w radianach</string>
+    <string name="mpss_choice">Przyspieszenie w m/s²</string>
+    <string name="fpss_choice">Przyspieszenie w ft/s²</string>
+    <string name="meter_choice">Dystans w metrach</string>
+    <string name="feet_choice">Dystans w stopach</string>
+    <string name="inch_choice">Dystans w calach</string>
+    <string name="yard_choice">Dystans w jardach</string>
+    <string name="km_choice">Dystans w km</string>
+    <string name="mile_choice">Dystans w milach</string>
+    <string name="watt_choice">Moc w watach</string>
+    <string name="joule_choice">Energia w dżulach</string>
+    <string name="kilojoule_choice">Energia w kilo dżulach</string>
+    <string name="hp_choice">Moc hp</string>
+    <string name="pk_choice">Moc w pk</string>
+    <string name="nm_choice">Siła w Nm</string>
+    <string name="ratio_choice">Jako iloraz</string>
+    <string name="percent_choice">Jako procent</string>
+    <string name="tesla_choice">Pole siły w uT</string>
+    <string name="volt_choice">Potencjał w voltach</string>
+    <!-- <string name="text_choice">Jako tekst</string> -->
+    <string name="inhg_choice">Ciśnienie w calach rtęci</string>
+    <string name="hpa_choice">Ciśnienie w hektopaskalach</string>
+    <string name="psi_choice">Ciśnienie w psi</string>
+    <string name="mb_choice">Ciśnienie w millibarach</string>
+    <string name="celcius_choice">Temperatura w ˚C</string>
+    <string name="fahrenheit_choice">Temperatura w  ˚F</string>
+    <string name="effic_speech">Dżule na uderzenie serca</string>
+    <string name="kph_speech">kilometrów na godzinę</string>
+    <string name="mps_speech">metrów na sekundę</string>
+    <string name="mph_speech">mil na godzinę</string>
+    <string name="fps_speech">stóp na godzinę</string>
+    <string name="fpm_speech">stóp na minutę</string>
+    <string name="beaufort_speech">Beaufort</string>
+    <string name="knot_speech">knoty</string>
+    <string name="rpm_speech">obroty na minutę</string>
+    <string name="bpm_speech">uderzeń na minutę</string>
+    <string name="pulse_speech">Długość pulsu w mili sekundach</string>
+    <string name="volt_speech">Volt</string>
+    <string name="count_speech" />
+    <string name="datetime_speech" />
+    <string name="degree_speech">stopnie</string>
+    <string name="mpss_speech">metrów na sekundę do kwadratu</string>
+    <string name="fpss_speech">stóp na sekundę do kwadratu</string>
+    <string name="meter_speech">metr</string>
+    <string name="feet_speech">stopa</string>
+    <string name="inch_speech">cal</string>
+    <string name="yard_speech">yard</string>
+    <string name="km_speech">kilometr</string>
+    <string name="mile_speech">mile</string>
+    <string name="watt_speech">Wat</string>
+    <string name="joule_speech">Dżule</string>
+    <string name="kilojoule_speech">kilo Dżule</string>
+    <string name="hp_speech">konie mechanicznie</string>
+    <string name="pk_speech">miara w koniach mechanicznych</string>
+    <string name="nm_speech">Newton meter</string> <!-- ??? -->
+    <string name="ratio_speech"></string>
+    <string name="percent_speech">procent</string>
+    <string name="tesla_speech">mikrotesla</string>
+    <!-- <string name="text_speech" /> -->
+    <string name="inhg_speech">cali rtęci</string>
+    <string name="hpa_speech">hektopaskale</string>
+    <string name="psi_speech">funt na cal do kwadratu</string>
+    <string name="mb_speech">millibar</string>
+    <string name="celcius_speech">stopni Celsjusza</string>
+    <string name="fahrenheit_speech">stopni fahrenheita</string>
+
+    <!-- ANT information -->
+
+
+    <!--
+    <string name="channel_closed">Kanał zamknięty</string>
+    <string name="channel_pending">Kanał oczekujący</string>
+    <string name="channel_searching">Szukanie urządzenia</string>
+    <string name="channel_tracking">Nagrywanie danych</string>
+    <string name="channel_data">Czytanie danych</string>
+    <string name="channel_offline">Offline</string>
+    -->
+    <string name="battery_new">Nowa</string>
+    <string name="battery_good">Dobrze</string>
+    <string name="battery_ok">OK</string>
+    <string name="battery_low">Nisko</string>
+    <string name="battery_critical">Krytycznie</string>
+    <string name="battery_unknown">Nieznany</string>
+    <string name="manufacturer">Producent</string>
+    <string name="model">Model</string>
+    <string name="revision">Rewizja</string>
+    <string name="serialnumber">Nr seryjny</string>
+    <string name="channel">Kanał ANT</string>
+    <string name="devicenumber">ANT id</string>
+    <string name="batterystatus">Bateria </string>
+    <string name="voltage">Napięcie</string>
+    <string name="alive">Żyje</string>
+    <string name="srm_slope">Pochyłość</string>
+    <string name="srm_offset">Przesunięcie</string>
+    <string name="calibrate">Skalibruj</string>
+    <string name="torque_freq_offset">Kalibracja udana (przesunięcie = %1$d)</string>
+    <string name="calibration_success">Kalibracja udana (Auto zero = %1$s, data = %2$d)</string>
+    <string name="calibration_failed">Kalibracja nieudana (Auto zero = %1$s, data = %2$d)</string>
+
+    <!-- Device information -->
+    <string name="first_msg">Znaleziono %s</string>
+
+    <!-- GPS information -->
+    <string name="provider_enabled">Dostawca %s włączony </string>
+    <string name="provider_disabled">Dostawca %s wyłączony</string>
+    <string name="provider_available">Dostawca %s dostępny</string>
+    <string name="provider_out_of_service">Dostawca %s nieczynny</string>
+    <string name="provider_temporarily_unavailable">Dostawca %s czasowo nieczynny</string>
+    <string name="satellites_in_view">%d satelit w zasięgu</string>
+    <string name="location_first_fix">Pierwsza ustalona lokalizacja</string>
+
+    <!-- Settings -->
+
+    <string name="settings_title">Ustawienia</string>
+    <string name="settings_ant_title">ANT+ i informacje o sensorach</string>
+    <string name="settings_gps_title">GPS</string>
+    <string name="settings_bluetooth_title">Bluetooth</string>
+    <string name="settings_android_display">Czas do ściemnienia ekranu</string>
+    <string name="settings_android_display_detail">Przejdź do \'Uśpij\' w menu \'Ekran\' &#8230;</string>
+    <string name="settings_share_title">Chmura i udostępnianie</string>
+    <string name="settings_speech_title">Mowa</string>
+    <string name="settings_level_title">ustaw poziom pochylenia na 0</string>
+    <string name="settings_display_title">Ekran</string>
+    <string name="settings_android_title">Ustawienia android</string>
+    <string name="settings_android_location_title">Sprawdź dostępność GPS</string>
+    <string name="settings_android_location_summary">Sprawdź GPS w ustawieniach android</string>
+    <string name="settings_android_texttospeech_title">Ustawienia przetwarzania tekstu na mowę android</string>
+    <string name="settings_calibrate_title">Skalibruj sensor mocy</string>
+    <string name="settings_bike_title">Ustawienia roweru</string>
+    <string name="settings_slope">SRM pochylenie %1$.2f</string>
+    <string name="settings_offset">SRM przesunięcie %1$.2f</string>
+    <string name="settings_hints">Podpowiedzi</string>
+    <string name="settings_replay">Opcje odtwarzania</string>
+
+    <!-- Preferences -->
+
+    <string name="title_autoswitch_preference">Czas pomiędzy różnymi wartościami</string>
+    <string name="summary_autoswitch_preference">Kiedy wybierzesz pokazywanie kilku wartości w jednym oknie, czas co jaki będą zmieniane.</string>
+    <string name="dialog_title_autoswitch_preference">Wybierz Interwał zmian wartości</string>
+    <string name="display_preferences">Ustawienia ekranu</string>
+    <string name="title_click_preference">Kliknij aby zmienić wartość</string>
+    <string name="summary_click_preference">Kliknięcie zmienia wartość</string>
+    <string name="summary_noclick_preference">Kliknięcie nie zmienia wartości</string>
+    <string name="title_hasmap_preference">Mapy</string>
+    <string name="summary_hasmap_preference">Pokaż mapy w tle</string>
+    <string name="summary_nohasmap_preference">Nie pokazuj map w tle</string>
+    <string name="title_dim_preference">Zasady przyciemniania ekranu</string>
+    <string name="summary_dim_preference">Zezwól na przygaszanie ekranu. Oszczędza baterię: []</string>
+    <string name="title_usepairing_preference">Parowanie ANT+</string>
+    <string name="summary_pairingon_preference">Aplikacja połączy się tylko z poprzednio używanymi sensorami ANT+</string>
+    <string name="summary_pairingoff_preference">Aplikacja połączy się ze wszystkimi sensorami ANT+</string>
+    <string name="deviceinfo_preference">Informacje o sensorze</string>
+    <string name="summary_deviceinfo_preference">Pokazuje informacje o wykrytych sensorach</string>
+    <string name="voice_preferences">Czytanie</string>
+    <string name="title_voiceinterval_preference">Czas pomiędzy wiadomościami</string>
+    <string name="summary_voiceinterval_preference">Interwał ().</string>
+    <string name="dialog_title_voiceinterval_preference">Wybierz interwał odczytu wartości</string>
+    <string name="title_voiceon_preference">Mowa</string>
+    <string name="summary_voiceon_preference">Czytanie jest włączone</string>
+    <string name="summary_voiceoff_preference">Czytanie jest wyłączone</string>
+    <string name="title_voicechange_preference">Czytaj przy zmianie wartości</string>
+    <string name="summary_voicechangeon_preference">Czytaj przy większej zmianie wartości. Niezależnie od ustawionego interwału. </string>
+    <string name="summary_voicechangeoff_preference">Nie czytaj przy większej zmianie wartości. </string>
+    <string name="ant_preferences">Ustawienia ANT+</string>
+    <string name="bike_preferences">Parametry roweru</string>
+    <string name="title_displayname_preference">Nazwa ekranu</string>
+    <string name="summary_displayname_preference">Nazwa wyświetlana w  bikesenses.nl: []</string>
+    <string name="trainingpeaks_category">TrainingPeaks login</string>
+    <string name="title_tpuser_preference">TrainingPeaks użytkownik</string>
+    <string name="summary_tpuser_preference">Użytkownik do upload\'u: []</string>
+    <string name="title_tppassword_preference">Hasło TrainingPeaks</string>
+    <string name="summary_tppassword_preference">Hasło upload\'u: ***</string>
+    <string name="title_wheelcirc_preference">Średnica koła mm</string>
+    <string name="summary_wheelcirc_preference">Średnica koła w mm = [].</string>
+    <string name="title_wheelsize_preference">Rozmiar koła i opony</string>
+    <string name="summary_wheelsize_preference">Rozmiar koła i opony = [].</string>
+    <string name="url_preferences">Dodatkowe opcje udostępniania</string>
+    <string name="title_url_preference">Adres wysyłki</string>
+    <string name="summary_url_preference">Adres = [].</string>
+    <string name="gps_preferences">Ustawienia GPS</string>
+    <string name="title_gpson_preference">Używaj GPS</string>
+    <string name="summary_gpson_preference">GPS jest włączony . Wskazania są dokładne. Ale rośnie zużycie baterii.</string>
+    <string name="summary_gpsoff_preference">GPS jest wyłączony. Lokalizacja nie jest dokładna</string>
+    <string name="title_gpsinterval_preference">Interwał GPS</string>
+    <string name="summary_gpsinterval_preference">Częste odświeżanie GPS szybciej wyczerpie baterię ().</string>
+    <string name="dialog_title_gpsinterval_preference">Wybierz częstotliwość odświeżenia GPS</string>
+    <string name="title_windows_preference">Pola</string>
+    <string name="summary_windows_preference">Ilość pól do pokazania ().</string>
+    <string name="dialog_title_windows_preference">Wybierz ilość pól</string>
+    <!--
+         <string name="title_gpsmindistance_preference">Minimalna odległość</string>
+    <string name="summary_gpsmindistance_preference">Wybierz minimalną odległość pomiędzy odświeżeniami lokacji GPS ().</string>
+    <string name="dialog_title_gpsmindistance_preference">Wybierz minimalną odległość GPS</string>
+    <string name="replay_preferences">Opcje odtwarzania</string>
+    -->
+    <string name="title_xtravalues_preference">Wartości dodatkowe</string>
+    <string name="summary_xtravalues_preference">Pokaż wartości dodatkowe (np. satelity)</string>
+    <string name="summary_noxtravalues_preference">Nie pokazuj dodatkowych wartości</string>
+    <string name="title_replayinterval_preference">Prędkość odtwarzania</string>
+    <string name="summary_replayinterval_preference">Prędkość odtwarzania historii ().</string>
+    <string name="dialog_title_replayinterval_preference">Wybierz prędkość odtwarzania historii</string>
+    <string name="http_preferences">Opcje wysyłania</string>
+    <string name="title_http_preference">Opcje wysyłania do sieci</string>
+    <string name="summary_on_http_preference">Wyślij dane do sieci</string>
+    <string name="summary_off_http_preference">Nie wysyłaj danych do sieci</string>
+    <string name="title_shareprivacy_preference">Data i wykres w sieci</string>
+    <string name="summary_on_shareprivacy_preference">Widoczne tylko dla osób posiadających link</string>
+    <string name="summary_off_shareprivacy_preference">Widoczne dla każdego</string>
+    <string name="title_svox_preference">Połącz do SVOX z międzynarodowymi głosami</string>
+    <string name="reset_totals">Wyzeruj statystyki</string>
+    <!--
+    <string name="title_proximity_preference">Zasięg czujnika ANT+</string>
+    <string name="summary_proximity_preference">Niska wartość oznacza wyszukiwanie tylko najbliższych czujników ().</string>
+    <string name="dialog_title_proximity_preference">Ustaw zasięg</string>
+    -->
+    <!-- Mail -->
+
+    <string name="mail_sending">Wysyłanie wiadomości…</string>
+    <string name="email_text">Drogi użytkowniku.\r\n\r\n załącznikach znajdziesz dane ze swojego treningu. Jeśli masz włączone udostępnianie w sieci możesz je sprawdzić pod adresem:\r\n%1$s</string>
+    <!-- <string name="email_text_lite">Drogi użytkowniku.\r\n\r\n załącznikach znajdziesz dane ze swojego treningu. Jeśli masz włączone udostępnianie w sieci możesz je sprawdzić pod adresem:\r\n%1$s\r\nPełna wersja aplikacji może dodatkowo wysyłać dane bezpośrednio do TraingPeaks oraz inne formaty danych jako załączniki w mailu.</string> -->
+    <string name="email_signature">Pozdrawiamy\r\n\r\nBroxTech\r\nhttp://www.broxtech.com\r\nProszę zmienić rozszerzenie pliku z .gz na .zip . Gmail nie pozwala na wysyłanie plików .zip.</string>
+    <string name="no_mail_to_send">Brak danych do wysłania.</string>
+
+    <!-- Twitter -->
+    <!-- <string name="title_activity_tweet">Tweet</string> -->
+    <string name="warn_tweet_cloud_title">Brak sieci, brak Tweetera.</string>
+    <string name="warn_tweet_cloud_msg">Nie możesz wysłać Tweeta jeśli nie masz włączonego udostępniania w sieci.</string>
+    <string name="tweet_msg">%1$s %3$s. Obejrzyj mój trening pod adresem %2$s</string>
+
+    <!-- Lite as Full -->
+    <!--
+         <string name="title_lite_as_full">Darmowa jak pełna</string>
+    <string name="message_lite_as_full">Dziś twoja %1$s aplikacja będzie działać jak wersja pełna. Udostępnianie w sieci, Tweetowanie jest włączone. %1$s przeczyta ci dowolną wartość podczas treningu (Sprawdź ustawienia mowy). Możesz wysłać trening do TrainingPeaks. Oraz znajdziesz dodatkowe pola w mailu.</string>
+    -->
+    <!-- Bike Profile -->
+    <string name="step1_bikeprofile">Rower: %1$s</string>
+    <string name="title_bikeprofile_preference">Profil roweru</string>
+    <string name="summary_bikeprofile_preference">Aktualny profil: [].</string>
+    <string name="title_bikeprofilename_preference">Zmień nazwę profilu</string>
+    <string name="summary_bikeprofilename_preference">Nazwa profilu: [].</string>
+    <string name="profile1">Rower 1</string>
+    <string name="profile2">Rower 2</string>
+    <string name="profile3">Rower 3</string>
+    <string name="profile4">Rower 4</string>
+    <string name="profile5">Rower 5</string>
+
+    <!-- Strings 1.3 release -->
+    <string name="device_address">Addres</string>
+    <string name="software">Progam</string>
+    <string name="raw_value">Wartość</string>
+    <string name="twitter_auth_request">%1$s poprosi cię o twoje konto Twitter aby je autoryzować i umożliwić wysyłanie Tweetów.</string>
+    <string name="twitter_send_exception">Błąd wysyłania Tweeta: %1$s</string>
+    <string name="twitter_access_token_exception">Błąd pobierania tokenu: %1$s</string>
+    <string name="twitter_sent">Tweet wysłany: %1$s</string>
+    <string name="dialogmsg_altcalibration_preference">Wysokość</string>
+    <string name="title_altcalibration_preference">Kalibracja wysokości</string>
+    <string name="summary_altcalibration_preference">Aktualne przesunięcie ().</string>
+
+    <!-- Strings 1.4 release -->
+    <string name="recoverypopup">Odpoczynek po ostatnim treningu</string>
+    <string name="fitnesspopup">Fitness after ride</string> <!-- ??? (Fitness after ride) Is it like chronic training load in TP or rather make some stretching after training -->
+    <string name="intensitypopup">Intensywność treningu</string>
+    <!-- <string name="remarkspopup">Uwagi</string> -->
+    <string name="remarkspopup_title">Uwagi</string>
+    <string name="remarkspopup_hint">Tu wpisz uwagi po treningu</string>
+    <string name="remarkspopup_description">Wpisz uwagi</string>
+    <string name="interval">Interwał</string>
+    <string name="energy">Energia</string>
+    <string name="stridesensor">Krokomierz</string>
+    <string name="stridesensor_error">Bład krokomierza!</string>
+    <string name="stridesensor_warning">Ostrzeżenie krokomierza!</string>
+    <string name="winddirection">Kierunek wiatru</string>
+    <string name="change">Zmian/minuta</string>
+    <string name="acceleration">Przyspieszenie</string>
+    <string name="steps">Kroki</string>
+    <string name="stepsnumber"></string>
+    <string name="steps_choice">Kroki</string>
+    <string name="steps_speech">Kroki</string>
+    <string name="title_storage_preference">Typy plików</string>
+    <string name="summary_storage_preference">Pliki do wysłania podczas udostępniania</string>
+    <string name="laps_title">Interwał %1$s</string>
+    <string name="menu_interval">Interwał</string>
+    <string name="average_short">śr.</string>
+    <string name="max_short">max.</string>
+    <string name="wheel_torque">Moment obrotowy koła</string> <!-- ??? (Wheel torque) Is it momentum of weel or gear number? -->
+    <string name="crank_torque">Moment obrotowy</string>
+    <string name="zone">HR Zone</string>
+    <string name="title_test_preference">Test options</string>
+    <string name="summary_test_preference">Chosen test option []</string>
+    <string name="report">Report</string>
+    <string name="hours">Hours</string>
+    <string name="dialogmsg_maxheartrate_preference">Heart rate</string>
+    <string name="title_maxheartrate_preference">Max. heart rate</string>
+    <string name="summary_maxheartrate_preference">Maximum heart rate ().</string>
+
+    <!-- Strings 1.4.1 release -->
+    <!-- <string name="no_account_for_mail">Brak zdefiniowanego konta email.</string> -->
+    <string name="strava_account">pliki FIT będą wysłane do Strava dla loginu: %s</string>
+    <string name="warn_nofit_title">brak pliku FIT</string>
+    <string name="warn_nofit_msg">Zapis plików FIT nie został wybrany w menu Chmury i Udostępniania. Włącz tą opcję zanim będziesz mógł wsyłać dane do Strava.</string>
+    <string name="warn_noaccount_title">Brak konta email</string>
+    <string name="warn_noaccount_msg">Nie zdefiniowałeś jeszcze konta email. Proszę zdefiniuj najpierw konto email w systemie Android.</string>
+    <string name="warn_nofitfiles_title">Brak plików na dziś.</string>
+    <string name="warn_nofitfiles_msg">Tylko dzisiejsze pliki są wysyłane do Strava. Brak plików z dziś.</string>
+    <string name="choose_mailer">Choose email app.</string>
+
+    <!-- Strings 1.4.4 release -->
+    <!-- <string name="weight">Weight</string> -->
+    <string name="kg">kg</string>
+    <string name="kg_choice">Weight in kg</string>
+    <string name="kg_speech">kilogram</string>
+    <string name="notify_install">Please install ANT+ Radio Service</string>
+    <string name="ant_not_supported">ANT+ not supported on this device</string>
+    <string name="ant_enabling">ANT+ enabling</string>
+    <!-- <string name="ant_enabled">ANT+ enabled</string> -->
+    <string name="ant_disabled">ANT+ disabled</string>
+    <string name="ant_disabling">ANT+ disabling</string>
+    <string name="ant_airplane_mode">ANT+ airplane mode</string>
+    <string name="ant_in_use">ANT+ already in use</string>
+    <string name="ant_error">ANT+ error</string>
+    <!--
+    <string name="ant_invalid">ANT+ error occurred</string>
+    <string name="ant_computing">ANT+ computing</string>
+    <string name="ant_new_session">ANT+ new session</string>
+    <string name="ant_connected">ANT+ connected</string>
+    <string name="ant_service_started">ANT+ service started</string>
+    -->
+    <string name="ant_open_channel">ANT+ channel opened for %s</string>
+    <!--
+    <string name="ant_notify_started">Channel Opened</string>
+    <string name="ant_notify_started_body">AntTest is active.</string>
+    -->
+    <string name="title_gpsaltbaroadjust_preference">Barometer adjustment</string>
+    <string name="summary_gpsaltbaroadjuston_preference">Allow barometer to adjust altitude</string>
+    <string name="summary_gpsaltbaroadjustoff_preference">Do not allow barometer to adjust altitude</string>
+    <string name="settings_bluetooth_summary">Suunto Dual bands may not work when Bluetooth is on!</string>
+    <string name="title_twitter_reset">Reset Twitter authorisation</string>
+    <string name="twitter_reset">Twitter reset done</string>
+
+    <!-- String 1.5 release -->
+    <string name="title_imei_preference">IMEI</string>
+    <string name="summary_imei_preference">replacement of default IMEI</string>
+    <string name="ble_not_supported">Bluetooth LE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_bledevices">Scan Bluetooth Smart</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="tts_notinitialized">Text to speech not initialized</string>
+    <string name="say_beats">Heart rate is %s beats per minute</string>
+    <string name="warn_ble_not_available_title">No Bluetooth Low Enery support</string>
+    <string name="warn_ble_not_available_msg">Bluetooth Low Enery devices are not supported by this Android version.</string>
+    <string name="settings_bluetoothle_title">Bluetooth Low Energy</string>
+    <string name="settings_bluetoothle_summary">Bluetooth Low Energy devices</string>
+    <string name="zoom_level">Zoom %d</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_devices">Devices</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_ble">Scan BLE devices</string>
+    <string name="title_activity_beat">Bluetooth Smart</string>
+    <string name="title_activity_scan">Scan Bluetooth Smart</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_title_tilesource_preference">Map tile source</string>
+    <string name="title_tilesource_preference">Map Tile source</string>
+    <string name="summary_tilesource_preference">Open Street Map tile source: []</string>
+    <string name="change_tilesource">Change of tile source requires restart of app.</string>
+    <string name="heartrate_ble">Heart rate BLE.</string>
+    <string name="bleconnect">Trying to connect to Bluetooth Low Energy devices</string>
+
+</resources>
